@@ -107,4 +107,8 @@ If `Dest_file` already exists, it is overwritten without any warning.
 
 ![common used pf cp command image](images/cp-command.png)
 
+# 6. cat commands 
+
+### definition: The cat command is one of the most useful Linux commands you can learn. It derives its name from the word concatenate and lets you create, merge, or print files in the standard output screen or to another file and much more.
+
 
