@@ -103,4 +103,6 @@ cp Src_file Dest_file
 If `Dest_file` does not exist, it is created.
 If `Dest_file` already exists, it is overwritten without any warning.
 
+![common used pf LS command image](images/cp-command.png)
+
 
