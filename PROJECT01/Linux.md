@@ -69,7 +69,7 @@ pwd -P: Prints the actual path.
 
 ## 4.'ls' command
 
-### The ls command is one of the more basic commands in Linux. It is designed to list the names and features of files and directories. It can be used for a single file or as many as all files and folders in a selected set of directories.
+#### The ls command is one of the more basic commands in Linux. It is designed to list the names and features of files and directories. It can be used for a single file or as many as all files and folders in a selected set of directories.
 
 Syntax of `ls` command in Linux
 
