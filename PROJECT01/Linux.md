@@ -109,6 +109,6 @@ If `Dest_file` already exists, it is overwritten without any warning.
 
 # 6. cat commands 
 
-### definition: The cat command is one of the most useful Linux commands you can learn. It derives its name from the word concatenate and lets you create, merge, or print files in the standard output screen or to another file and much more.
+### Definition: The cat command is one of the most useful Linux commands you can learn. It derives its name from the word concatenate and lets you create, merge, or print files in the standard output screen or to another file and much more.
 
 
