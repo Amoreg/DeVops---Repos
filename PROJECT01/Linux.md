@@ -87,6 +87,8 @@ The cp command allows users to copy a file to either the same directory or a dif
 
 Users must have sudo privileges to copy protected files.
 
+![common used pf LS command image](images/ls-command.png)
+
 ## Syntax of cp Command
 
 The basic syntax for copying a file using the cp command is as follows:
