@@ -3,7 +3,7 @@
 
 ## 1. 'sudo' commands 
 
-### Definition: Sudo is short for superuser do. It's a tool that elevates a user's privileges to execute sensitive commands, e.g. installing or updating a package, disabling a network interface, performing a restart, stopping the firewall daemon, modifying the crontab, or installing an application and updates.
+#### Definition: Sudo is short for superuser do. It's a tool that elevates a user's privileges to execute sensitive commands, e.g. installing or updating a package, disabling a network interface, performing a restart, stopping the firewall daemon, modifying the crontab, or installing an application and updates.
 
 ### To run a command requiring root privileges in a terminal, prepend sudo before it. To get an interactive root shell, use sudo -i.e.g  update the Linux OS
 
