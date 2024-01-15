@@ -79,6 +79,8 @@ Commonly Used Options in `ls` command in Linux
 
 ![common used pf LS command image](images/lscommonlyused.png)
 
+![common used pf LS command image](images/ls-command.png)
+
 # 5. 'cp' commands 
 
 #### Definition: The cp command is used to copy one or more files on a Linux system to a new location. It is similar to the mv command, except it does not move or remove the original file, which remains in place. Like most Linux commands, cp is run using the command line of a system terminal.
@@ -86,8 +88,6 @@ Commonly Used Options in `ls` command in Linux
 The cp command allows users to copy a file to either the same directory or a different location. Giving the copy a different name than the original file is also possible. The -r option enables the cp command to operate recursively and copy a directory and any files and subdirectories it contains. cp has several options, allowing users to run it interactively, use verbose mode, or preserve the file attributes of the original.
 
 Users must have sudo privileges to copy protected files.
-
-![common used pf LS command image](images/ls-command.png)
 
 ## Syntax of cp Command
 
