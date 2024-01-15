@@ -12,7 +12,7 @@
 
 ## 2. 'CD' command
 
-### Definition: The cd command in Linux stands for change directory. It is used to change the current directory of the terminal. The terminal, by default, opens the home directory. The cd command comes as part of the GNU Core Utilities, available on all Unix-like operating systems. The cd command, also known as chdir (change directory), is a command-line shell command used to change the current working directory in various operating systems. You don't have to close directories in a terminal, but you can always navigate away from a location you've made your current directory. The cd command, issued alone with no arguments, takes you back home.
+#### Definition: The cd command in Linux stands for change directory. It is used to change the current directory of the terminal. The terminal, by default, opens the home directory. The cd command comes as part of the GNU Core Utilities, available on all Unix-like operating systems. The cd command, also known as chdir (change directory), is a command-line shell command used to change the current working directory in various operating systems. You don't have to close directories in a terminal, but you can always navigate away from a location you've made your current directory. The cd command, issued alone with no arguments, takes you back home.
 
 ### The cd command in Linux has the following syntax:
 
@@ -32,7 +32,7 @@ cd: Invokes the cd command.
 
 ## 3. 'pwd' command
 
-### Definition: The pwd Linux command prints the current working directory path, starting from the root (/). Use the pwd command to find your way in the Linux file system structure maze or to pass the working directory in a Bash script.
+#### Definition: The pwd Linux command prints the current working directory path, starting from the root (/). Use the pwd command to find your way in the Linux file system structure maze or to pass the working directory in a Bash script.
 
 Table of Content
 
@@ -69,7 +69,7 @@ pwd -P: Prints the actual path.
 
 ## 4.'ls' command
 
-## The ls command is one of the more basic commands in Linux. It is designed to list the names and features of files and directories. It can be used for a single file or as many as all files and folders in a selected set of directories.
+### The ls command is one of the more basic commands in Linux. It is designed to list the names and features of files and directories. It can be used for a single file or as many as all files and folders in a selected set of directories.
 
 Syntax of `ls` command in Linux
 
@@ -81,7 +81,7 @@ Commonly Used Options in `ls` command in Linux
 
 # 5. 'cp' commands 
 
-## Definition: The cp command is used to copy one or more files on a Linux system to a new location. It is similar to the mv command, except it does not move or remove the original file, which remains in place. Like most Linux commands, cp is run using the command line of a system terminal.
+#### Definition: The cp command is used to copy one or more files on a Linux system to a new location. It is similar to the mv command, except it does not move or remove the original file, which remains in place. Like most Linux commands, cp is run using the command line of a system terminal.
 
 The cp command allows users to copy a file to either the same directory or a different location. Giving the copy a different name than the original file is also possible. The -r option enables the cp command to operate recursively and copy a directory and any files and subdirectories it contains. cp has several options, allowing users to run it interactively, use verbose mode, or preserve the file attributes of the original.
 
