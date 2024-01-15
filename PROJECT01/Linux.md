@@ -26,9 +26,9 @@ cd: Invokes the cd command.
 
 [directory]: Path to the directory you want to move into.
 
-![cd command image](image/cd-command.png)
+![cd command image](images/cd-command.png)
 
-![cd command image2](image/cd2-command.png)
+![cd command image2](images/cd2-command.png)
 
 ## 3. 'pwd' command
 
@@ -65,7 +65,7 @@ pwd -L: Prints the symbolic path.
 pwd -P: Prints the actual path.
 
 
-![pwd command output image](image/pwd-command.png)
+![pwd command output image](images/pwd-command.png)
 
 ## 4.'ls' command
 
@@ -77,7 +77,7 @@ ls [option] [file/directory]
 
 Commonly Used Options in `ls` command in Linux
 
-![common used pf LS command image](image/lscommonlyused.png)
+![common used pf LS command image](images/lscommonlyused.png)
 
 # 5. 'cp' commands 
 
