@@ -7,7 +7,7 @@
 
 ### To run a command requiring root privileges in a terminal, prepend sudo before it. To get an interactive root shell, use sudo -i.e.g  update the Linux OS
 
-![sudo command image](image/sudo-command.png)
+![sudo command image](images/sudo-command.png)
 
 
 ## 2. 'CD' command
