@@ -83,11 +83,9 @@ Commonly Used Options in `ls` command in Linux
 
 # 5. 'cp' commands 
 
-#### Definition: The cp command is used to copy one or more files on a Linux system to a new location. It is similar to the mv command, except it does not move or remove the original file, which remains in place. Like most Linux commands,
-cp is run using the command line of a system terminal.
+#### Definition: The cp command is used to copy one or more files on a Linux system to a new location. It is similar to the mv command, except it does not move or remove the original file, which remains in place. Like most Linux commands, cp is run using the command line of a system terminal.
 
-The cp command allows users to copy a file to either the same directory or a different location. Giving the copy a different name than the original file is also possible. 
-The -r option enables the cp command to operate recursively and copy a directory and any files and subdirectories it contains. cp has several options, allowing users to run it interactively, use verbose mode, or preserve the file attributes of the original.
+The cp command allows users to copy a file to either the same directory or a different location. Giving the copy a different name than the original file is also possible. The -r option enables the cp command to operate recursively and copy a directory and any files and subdirectories it contains. cp has several options, allowing users to run it interactively, use verbose mode, or preserve the file attributes of the original.
 
 Users must have sudo privileges to copy protected files.
 
@@ -107,48 +105,12 @@ cp Src_file Dest_file
 If `Dest_file` does not exist, it is created.
 If `Dest_file` already exists, it is overwritten without any warning.
 
+
 ![common used pf cp command image](images/cp-command.png)
 
 # 6. cat commands 
 
 ### Definition: The cat command is one of the most useful Linux commands you can learn. It derives its name from the word concatenate and lets you create, merge, or print files in the standard output screen or to another file and much more.
-
-![common used pf cp command image](images/cat-command.png)
-
-# 7. mv commands 
-
-### Definition: Use the mv command to move files and directories from one directory to another or to rename a file or directory. If you move a file or directory to a new directory without specifying a new name, it retains its original name. Attention: The mv command can overwrite many existing files unless you specify the -i flag.
-
-## Syntax
-To Move and Rename a File
-
-mv [ -d ] [ -e ] [ -E{force|ignore|warn} ] [ -i | -f ] [ -I ] SourceFile ... TargetFile
-
-To Move and Rename a Directory
-
-mv [ -d ] [ -e ] -E{force|ignore|warn} ] [ -i | -f ] [ -I ] SourceDirectory ... TargetDirectory
-
-To Move Files or Directories to a Directory Maintaining Original File Names
-
-mv [ -d ] [ -e ] -E{force|ignore|warn} ] [ -i | -f ] [ -I ] SourceFile/SourceDirectory
-
-![common used pf cp command image](images/cat-command.png)
-
-# 8. mkdir commands 
-
-### Definition: The mvdir command renames directories within a file system. To use the mvdir command, you must have write permission to Directory1 and Directory2 as well as in the parent directories. The Directory1 parameter must name an existing directory. If Directory2 does not exist, Directory1 is moved to Directory2. If Directory2 exists, Directory1 becomes a subdirectory of Directory2. Neither directory can be a subset of the other.
-
-![common used pf cp command image](images/mkdir-command.png)
-
-![common used pf cp command image](images/mkdir2-command.png)
-
-# 9. rmdir commands 
-
-
-
-
-
-
 
 
 
