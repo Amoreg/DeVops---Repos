@@ -138,6 +138,8 @@ mv [ -d ] [ -e ] -E{force|ignore|warn} ] [ -i | -f ] [ -I ] SourceFile/SourceDir
 
 ### Definition: The mvdir command renames directories within a file system. To use the mvdir command, you must have write permission to Directory1 and Directory2 as well as in the parent directories. The Directory1 parameter must name an existing directory. If Directory2 does not exist, Directory1 is moved to Directory2. If Directory2 exists, Directory1 becomes a subdirectory of Directory2. Neither directory can be a subset of the other.
 
+![common used pf cp command image](images/mkdir-command.png)
+
 
 
 
