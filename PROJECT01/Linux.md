@@ -117,8 +117,8 @@ If `Dest_file` already exists, it is overwritten without any warning.
 
 # 6. mv commands 
 
-### Definition:Use the mv command to move files and directories from one directory to another or to rename a file or directory. If you move a file or directory to a new directory without specifying a new name, 
-it retains its original name. Attention: The mv command can overwrite many existing files unless you specify the -i flag.
+### Definition: Use the mv command to move files and directories from one directory to another or to rename a file or directory. If you move a file or directory to a new directory without specifying a new name, it retains its original name. Attention: The mv command can overwrite many existing files unless you specify the -i flag.
+
 
 
 
