@@ -153,12 +153,19 @@ mv [ -d ] [ -e ] -E{force|ignore|warn} ] [ -i | -f ] [ -I ] SourceFile/SourceDir
 ## The different rm command options include:
 
 -f: Forces the removal of all files or directories.
+
 -i: Prompts for confirmation before removing.
+
 -I: Prompts once before removing more than three files or when removing recursively.
+
 -r: Removes directories and their content recursively.
+
 -d: Removes empty directories.
+
 -v: Provides a verbose output.
+
 --help: Displays the help text.
+
 --version: Displays the command version.
 
 
