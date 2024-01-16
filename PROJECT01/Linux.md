@@ -30,7 +30,7 @@ cd: Invokes the cd command.
 
 ![cd command image2](images/cd2-command.png)
 
-## 3. 'pwd' command
+## 3. 'pwd' command.
 
 #### Definition: The pwd Linux command prints the current working directory path, starting from the root (/). Use the pwd command to find your way in the Linux file system structure maze or to pass the working directory in a Bash script.
 
