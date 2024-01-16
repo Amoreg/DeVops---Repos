@@ -119,6 +119,19 @@ If `Dest_file` already exists, it is overwritten without any warning.
 
 ### Definition: Use the mv command to move files and directories from one directory to another or to rename a file or directory. If you move a file or directory to a new directory without specifying a new name, it retains its original name. Attention: The mv command can overwrite many existing files unless you specify the -i flag.
 
+## Syntax
+To Move and Rename a File
+
+mv [ -d ] [ -e ] [ -E{force|ignore|warn} ] [ -i | -f ] [ -I ] SourceFile ... TargetFile
+
+To Move and Rename a Directory
+
+mv [ -d ] [ -e ] -E{force|ignore|warn} ] [ -i | -f ] [ -I ] SourceDirectory ... TargetDirectory
+
+To Move Files or Directories to a Directory Maintaining Original File Names
+
+mv [ -d ] [ -e ] -E{force|ignore|warn} ] [ -i | -f ] [ -I ] SourceFile/SourceDirectory
+
 
 
 
