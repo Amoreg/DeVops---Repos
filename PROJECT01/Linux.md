@@ -144,6 +144,12 @@ mv [ -d ] [ -e ] -E{force|ignore|warn} ] [ -i | -f ] [ -I ] SourceFile/SourceDir
 
 # 9. rmdir commands 
 
+### Definition: The rmdir command is useful when you want to remove the empty directories from the filesystem in Linux. This command lets you specify the terminal to remove a particular directory right from the terminal. However, having correct knowledge of the rmdir command is essential, or you may delete any important directory.
+
+## syntax
+
+rmdir <options> <directory>
+
 
 
 
