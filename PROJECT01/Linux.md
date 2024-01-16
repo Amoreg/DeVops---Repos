@@ -132,6 +132,8 @@ To Move Files or Directories to a Directory Maintaining Original File Names
 
 mv [ -d ] [ -e ] -E{force|ignore|warn} ] [ -i | -f ] [ -I ] SourceFile/SourceDirectory
 
+![common used pf cp command image](images/cat-command.png)
+
 
 
 
