@@ -18,7 +18,7 @@
 
 cd [options] [directory]
 
-In the command above:
+In the command above:.
 
 cd: Invokes the cd command.
 
