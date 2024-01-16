@@ -83,9 +83,11 @@ Commonly Used Options in `ls` command in Linux
 
 # 5. 'cp' commands 
 
-#### Definition: The cp command is used to copy one or more files on a Linux system to a new location. It is similar to the mv command, except it does not move or remove the original file, which remains in place. Like most Linux commands, cp is run using the command line of a system terminal.
+#### Definition: The cp command is used to copy one or more files on a Linux system to a new location. It is similar to the mv command, except it does not move or remove the original file, which remains in place. Like most Linux commands,
+cp is run using the command line of a system terminal.
 
-The cp command allows users to copy a file to either the same directory or a different location. Giving the copy a different name than the original file is also possible. The -r option enables the cp command to operate recursively and copy a directory and any files and subdirectories it contains. cp has several options, allowing users to run it interactively, use verbose mode, or preserve the file attributes of the original.
+The cp command allows users to copy a file to either the same directory or a different location. Giving the copy a different name than the original file is also possible. 
+The -r option enables the cp command to operate recursively and copy a directory and any files and subdirectories it contains. cp has several options, allowing users to run it interactively, use verbose mode, or preserve the file attributes of the original.
 
 Users must have sudo privileges to copy protected files.
 
@@ -112,6 +114,11 @@ If `Dest_file` already exists, it is overwritten without any warning.
 ### Definition: The cat command is one of the most useful Linux commands you can learn. It derives its name from the word concatenate and lets you create, merge, or print files in the standard output screen or to another file and much more.
 
 ![common used pf cp command image](images/cat-command.png)
+
+# 6. mv commands 
+
+### Definition:Use the mv command to move files and directories from one directory to another or to rename a file or directory. If you move a file or directory to a new directory without specifying a new name, 
+it retains its original name. Attention: The mv command can overwrite many existing files unless you specify the -i flag.
 
 
 
