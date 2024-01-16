@@ -140,6 +140,8 @@ mv [ -d ] [ -e ] -E{force|ignore|warn} ] [ -i | -f ] [ -I ] SourceFile/SourceDir
 
 ![common used pf cp command image](images/mkdir-command.png)
 
+![common used pf cp command image](images/mkdir2-command.png)
+
 
 
 
