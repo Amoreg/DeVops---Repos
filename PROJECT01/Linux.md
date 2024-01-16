@@ -112,6 +112,70 @@ If `Dest_file` already exists, it is overwritten without any warning.
 
 ### Definition: The cat command is one of the most useful Linux commands you can learn. It derives its name from the word concatenate and lets you create, merge, or print files in the standard output screen or to another file and much more.
 
+<<<<<<< HEAD
+=======
+![common used pf cp command image](images/cat-command.png)
+
+# 7. mv commands 
+
+### Definition: Use the mv command to move files and directories from one directory to another or to rename a file or directory. If you move a file or directory to a new directory without specifying a new name, it retains its original name. Attention: The mv command can overwrite many existing files unless you specify the -i flag.
+
+## Syntax
+To Move and Rename a File
+
+mv [ -d ] [ -e ] [ -E{force|ignore|warn} ] [ -i | -f ] [ -I ] SourceFile ... TargetFile
+
+To Move and Rename a Directory
+
+mv [ -d ] [ -e ] -E{force|ignore|warn} ] [ -i | -f ] [ -I ] SourceDirectory ... TargetDirectory
+
+To Move Files or Directories to a Directory Maintaining Original File Names
+
+mv [ -d ] [ -e ] -E{force|ignore|warn} ] [ -i | -f ] [ -I ] SourceFile/SourceDirectory
+
+![common used pf cp command image](images/cat-command.png)
+
+# 8. mkdir commands 
+
+### Definition: The mvdir command renames directories within a file system. To use the mvdir command, you must have write permission to Directory1 and Directory2 as well as in the parent directories. The Directory1 parameter must name an existing directory. If Directory2 does not exist, Directory1 is moved to Directory2. If Directory2 exists, Directory1 becomes a subdirectory of Directory2. Neither directory can be a subset of the other.
+
+![common used pf cp command image](images/mkdir-command.png)
+
+![common used pf cp command image](images/mkdir2-command.png)
+
+# 9. rmdir commands 
+
+### Definition: The rmdir command is useful when you want to remove the empty directories from the filesystem in Linux. This command lets you specify the terminal to remove a particular directory right from the terminal. However, having correct knowledge of the rmdir command is essential, or you may delete any important directory.
+
+## syntax
+
+## rm [options] [file or directory name]
+
+## The different rm command options include:
+
+-f: Forces the removal of all files or directories.
+
+-i: Prompts for confirmation before removing.
+
+-I: Prompts once before removing more than three files or when removing recursively.
+
+-r: Removes directories and their content recursively.
+
+-d: Removes empty directories.
+
+-v: Provides a verbose output.
+
+--help: Displays the help text.
+
+--version: Displays the command version.
+
+
+
+
+
+
+
+>>>>>>> 147c00ff8e8ae39e4547adfb47452aae478e0100
 
 
 
