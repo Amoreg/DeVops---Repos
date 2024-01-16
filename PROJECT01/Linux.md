@@ -115,7 +115,7 @@ If `Dest_file` already exists, it is overwritten without any warning.
 
 ![common used pf cp command image](images/cat-command.png)
 
-# 6. mv commands 
+# 7. mv commands 
 
 ### Definition: Use the mv command to move files and directories from one directory to another or to rename a file or directory. If you move a file or directory to a new directory without specifying a new name, it retains its original name. Attention: The mv command can overwrite many existing files unless you specify the -i flag.
 
@@ -134,13 +134,17 @@ mv [ -d ] [ -e ] -E{force|ignore|warn} ] [ -i | -f ] [ -I ] SourceFile/SourceDir
 
 ![common used pf cp command image](images/cat-command.png)
 
-# 6. mkdir commands 
+# 8. mkdir commands 
 
 ### Definition: The mvdir command renames directories within a file system. To use the mvdir command, you must have write permission to Directory1 and Directory2 as well as in the parent directories. The Directory1 parameter must name an existing directory. If Directory2 does not exist, Directory1 is moved to Directory2. If Directory2 exists, Directory1 becomes a subdirectory of Directory2. Neither directory can be a subset of the other.
 
 ![common used pf cp command image](images/mkdir-command.png)
 
 ![common used pf cp command image](images/mkdir2-command.png)
+
+# 9. rmdir commands 
+
+
 
 
 
