@@ -39,4 +39,6 @@ Requirements for learning Git
 
 All is new code 1
 
+everyday project
+
 
