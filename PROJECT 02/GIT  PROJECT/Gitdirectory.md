@@ -39,5 +39,7 @@ Requirements for learning Git
 
 hello world
 
+to God be the glory
+
 
 
