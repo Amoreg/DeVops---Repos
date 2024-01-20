@@ -37,13 +37,5 @@ Requirements for learning Git
 
 # Introduction to mackdown syntax
 
-All is new code 1
-
-everyday project
-
-
-allllll;;;
-
-this new iput
-
+mayowagit puss
 
