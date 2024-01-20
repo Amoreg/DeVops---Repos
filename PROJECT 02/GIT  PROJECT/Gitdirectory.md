@@ -5,7 +5,7 @@
 
 ### What is Git?
 
-# What is a Git  Repository 1
+# What is a Git  Repository 
 
 Essential Functions of Git
 
