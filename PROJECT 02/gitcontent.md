@@ -36,8 +36,6 @@ Requirements for learning Git
 
 # Introduction to mackdown 
 
-up jesus
 
-ola ayodtS vv
 
 
