@@ -37,8 +37,5 @@ Requirements for learning Git
 
 # Introduction to mackdown syntax
 
-mayowagit puss
 
-
-hahahahahah
 
