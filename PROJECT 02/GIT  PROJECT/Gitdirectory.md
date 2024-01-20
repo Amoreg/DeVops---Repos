@@ -35,4 +35,4 @@ Requirements for learning Git
 
 # Introduction to mackdown syntax
 
-# Thanks
+
