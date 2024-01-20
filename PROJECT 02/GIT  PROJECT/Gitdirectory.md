@@ -1,7 +1,7 @@
 
-#Git
+# Git
 
-##Introduction to Git
+##I ntroduction to Git
 
 ### What is Git?
 
