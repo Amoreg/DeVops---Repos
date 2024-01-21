@@ -36,6 +36,6 @@ Requirements for learning Git
 
 # Introduction to mackdown 
 
-all is week
+all is week  122S
 
 
