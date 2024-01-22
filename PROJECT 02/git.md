@@ -15,6 +15,34 @@
 
 #### Git has been designed with the integrity of managed source code as a top priority. The content of the files as well as the true relationships between files and directories, versions, tags, and commits, all of these objects in the Git repository are secured with a cryptographically secure hashing algorithm called SHA1. This protects the code and the change history against both accidental and malicious changes and ensures that the history is fully traceable. With Git, you can be sure you have an authentic content history of your source code. Some other version control systems have no protections against secret alteration at a later date. This can be a serious information security vulnerability for any organization that relies on software development.
 
+### 3. Flexibility
+
+#### One of Git's key design objectives is flexibility. Git is flexible in several respects: in support of various kinds of nonlinear development workflows, in its efficiency in both small and large projects, and its compatibility with many existing systems and protocols. Git has been designed to support branching and tagging as first-class citizens (unlike SVN) and operations that affect branches and tags (such as merging or reverting) are also stored as part of the change history. Not all version control systems feature this level of tracking.
+
+### . Version control with Git
+
+#### Git is the best choice for most software teams today. While every team is different and should do their own analysis, here are the main reasons why version control with Git is preferred over alternatives:
+
+### Git is good
+
+Git has the functionality, performance, security, and flexibility that most teams and individual developers need. These attributes of Git are detailed above. In side-by-side comparisons with most other alternatives, many teams find that Git is very favorable.
+
+### Git is a de facto standard
+
+Git is the most broadly adopted tool of its kind. This makes Git attractive for the following reasons. At Atlassian, nearly all of our project source code is managed in Git. Vast numbers of developers already have Git experience and a significant proportion of college graduates may have experience with only Git. While some organizations may need to climb the learning curve when migrating to Git from another version control system, many of their existing and future developers do not need to be trained on Git. Vast numbers of developers already have Git experience and a significant proportion of college graduates may have experience with only Git. While some organizations may need to climb the learning curve when migrating to Git from another version control system, many of their existing and future developers do not need to be trained on Git. In addition to the benefits of a large talent pool, the predominance of Git also means that many third-party software tools and services are already integrated with Git including IDEs, and our tools like DVCS desktop client Sourcetree, issue and project tracking software, Jira, and code hosting service, 
+
+## Git is a quality open-source project
+
+#### Git is a very well-supported open-source project with over a decade of solid stewardship. The project maintainers have shown balanced judgment and a mature approach to meeting the long-term needs of its users with regular releases that improve usability and functionality. The quality of the open source software is easily scrutinized and countless businesses rely heavily on that quality. Git enjoys great community support and a vast user base. Documentation is excellent and plentiful, including books, tutorials, and dedicated websites. There are also podcasts and video tutorials. Being open source lowers the cost for hobbyist developers as they can use Git without paying a fee. For use in open-source projects, Git is undoubtedly the successor to the previous generations of successful open-source version control systems, SVN, and CVS.
+
+
+
+
+
+
+
+
+
 
 
 
