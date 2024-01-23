@@ -109,5 +109,15 @@ Git is the most broadly adopted tool of its kind. This makes Git attractive for 
 
 #### 3. Open a terminal and verify the installation was successful by typing git --version :
 
+## Installing  Git on Linux Ubuntu
+
+#### 1.Debian / Ubuntu (apt-get)
+
+#### 2. From your shell, install Git using apt-get: $ sudo apt-get update $ sudo apt-get install git.
+
+#### 3. Verify the installation was successful by typing git --version : 
+
+#### 4. Configure your Git username and email using the following commands, replacing Emma's name with your own.
+
 
 
