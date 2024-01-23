@@ -99,7 +99,7 @@ Git is the most broadly adopted tool of its kind. This makes Git attractive for 
 #### 6. Push the file to GitHub.
 
 
-## installation on  macOS?
+## Installation on  macOS?
 
 ### The easiest way to install Git on a Mac is via the stand-alone installer:
 
