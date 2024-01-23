@@ -44,7 +44,9 @@ Git is the most broadly adopted tool of its kind. This makes Git attractive for 
 
 #### Frontend and Backend Code: Web development projects, both on the frontend and backend, benefit from Git's version control capabilities. It allows for the management of HTML, CSS, JavaScript, server-side code, and other web development assets.Responsive Design: For responsive web design, Git helps manage different branches for various device resolutions, ensuring a consistent and responsive user experience.
 
-## 10 Collaboration in Mobile Teams: Teams working on mobile apps can use Git to collaborate efficiently, with each developer working on separate features or platforms.
+## 10 Collaboration in Mobile Teams:
+
+#### Teams working on mobile apps can use Git to collaborate efficiently, with each developer working on separate features or platforms.
 
 ## 11. DevOps and Continuous Integration/Continuous Deployment (CI/CD):
 
