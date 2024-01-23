@@ -59,8 +59,6 @@ Git is the most broadly adopted tool of its kind. This makes Git attractive for 
 
 #### Versioning Data and Notebooks: Data scientists use Git to version control datasets, Jupyter notebooks, and machine learning models. It helps track changes, collaborate with team members, and reproduce experiments.Experiment Tracking: Git enables the tracking of different experimental versions, making it easier to compare results, share findings, and reproduce experiments.
 
-Documentation:
-
 ## 14. Technical Documentation:
 
 #### Git is used to version control technical documentation. Teams can collaborate on documentation, track changes, and maintain a history of documentation edits.Git hosting platforms often include wikis that use Git repositories. This allows teams to collaboratively create and maintain knowledge bases.
@@ -80,7 +78,7 @@ Documentation:
 
 #### Download Git sofware and install on your operating system
 
-#### Create a Github account:
+#### Create a Github account:.g
 
 
 
