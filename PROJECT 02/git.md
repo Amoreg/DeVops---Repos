@@ -70,12 +70,17 @@ Documentation:
 #### Contributing to Projects: Open source projects often use Git to manage contributions from various contributors. Developers can fork repositories, make changes, and create pull requests to propose changes to the original project.
 
 
-Requirements in learning Git#
+# Requirements in learning Git#
 
-Get a good laptop
-Knowledge of linux and its command
-Download a an IDE or text editor e.g Vs code, Vim or nano.
-Download Git sofware and install on your operating system
-Create a Github account:GitHub
+#### A Desktop or Laptop with good configuration
+
+#### Knowledge of linux and its command
+
+#### Download and install  an IDE or text editor e.g Vs code, Vim or nano.
+
+#### Download Git sofware and install on your operating system
+
+#### Create a Github account:
+
 
 
