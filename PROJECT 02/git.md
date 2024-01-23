@@ -59,7 +59,9 @@ Git is the most broadly adopted tool of its kind. This makes Git attractive for 
 
 Documentation:
 
-## 14. Technical Documentation: Git is used to version control technical documentation. Teams can collaborate on documentation, track changes, and maintain a history of documentation edits.Git hosting platforms often include wikis that use Git repositories. This allows teams to collaboratively create and maintain knowledge bases.
+## 14. Technical Documentation:
+
+#### Git is used to version control technical documentation. Teams can collaborate on documentation, track changes, and maintain a history of documentation edits.Git hosting platforms often include wikis that use Git repositories. This allows teams to collaboratively create and maintain knowledge bases.
 
 ## 15.  Open Source Contributions:
 
