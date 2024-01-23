@@ -121,3 +121,24 @@ Git is the most broadly adopted tool of its kind. This makes Git attractive for 
 
 
 
+
+
+# Git commands
+
+#### git init: Initialize a new Git repository.
+
+#### git clone: Create a copy of a remote repository on your local machine.
+
+#### git add: Stage changes for the next commit.
+
+#### git commit: Record changes to the repository.
+
+#### git push: Push local changes to a remote repository.
+
+#### git pull: Fetch changes from a remote repository and merge them into the local branch.
+
+#### git branch: Create, list, or delete branches.
+
+#### git merge: Merge changes from one branch into another.
+
+# Git concepts
