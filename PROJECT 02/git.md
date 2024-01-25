@@ -123,9 +123,11 @@ Git is the most broadly adopted tool of its kind. This makes Git attractive for 
 
 #### sudo apt update
 
+![pictures](<images/update command.png>)
+
 #### sudo apt install git
 
-![pictures](<images/update command.png>)
+![Git install](<images/git install command2.png>)
 
 
 
