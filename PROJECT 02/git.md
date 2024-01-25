@@ -153,4 +153,4 @@ Create a GitHub account here: [GitHub Pages](https://pages.github.com/).
 # Git concepts
 
 
-[def]: <images/git install command.png>
+
