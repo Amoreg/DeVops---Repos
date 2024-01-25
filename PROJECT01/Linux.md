@@ -169,6 +169,8 @@ mv [ -d ] [ -e ] -E{force|ignore|warn} ] [ -i | -f ] [ -I ] SourceFile/SourceDir
 
 --version: Displays the command version.
 
+![sudo command image](images/sudo-command.png)
+
 
 
 
