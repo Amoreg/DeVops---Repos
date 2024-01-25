@@ -70,15 +70,15 @@ Git is the most broadly adopted tool of its kind. This makes Git attractive for 
 
 # Requirements in learning Git#
 
-#### A Desktop or Laptop with good configurati
+#### A Desktop or Laptop with good configuration
 
-#### Knowledge of linux and its command
+#### Knowledge of Linux and its command
 
-#### Download and install  an IDE or text editor e.g Vs code, Vim or nano.
+#### Download and install  an IDE or text editor e.g. Vs code, Vim, or nano.
 
-#### Download Git sofware and install on your operating system
+#### Download Git software and install on your operating system
 
-#### Create a Github account:
+Create a GitHub account here: [GitHub Pages](https://pages.github.com/).
 
 # GIT INSTALLATION
 
@@ -86,7 +86,7 @@ Git is the most broadly adopted tool of its kind. This makes Git attractive for 
 
 ### Git Installation on Windows 10
 
-#### 1.Download and install Git.
+#### 1. Download and install Git.
 
 #### 2. Git bash interface.
 
@@ -103,7 +103,7 @@ Git is the most broadly adopted tool of its kind. This makes Git attractive for 
 
 ### The easiest way to install Git on a Mac is via the stand-alone installer:
 
-#### 1.Download the latest Git for Mac installer.
+#### 1. Download the latest Git for Mac installer.
 
 #### 2. Follow the prompts to install Git.
 
