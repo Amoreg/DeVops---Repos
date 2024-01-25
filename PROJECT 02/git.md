@@ -152,6 +152,26 @@ Create a GitHub account here: [GitHub Pages](https://pages.github.com/).
 
 # Git concepts
 
+## Typical Workflow are as follows
+
+#### Get local copy of code.
+
+#### Create a branch.
+
+#### Edit files.
+
+#### Add and commit changes to local machine.
+
+#### Get back in sync with changes commited by others.
+
+#### Push branch to remote git repository.
+
+#### Merge local branch into local master.
+
+#### Push local master to remote git repostiory.
+
+
+
 
 
 
