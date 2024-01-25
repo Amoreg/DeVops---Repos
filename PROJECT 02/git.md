@@ -125,8 +125,7 @@ Git is the most broadly adopted tool of its kind. This makes Git attractive for 
 
 #### sudo apt install git
 
-![Alt](<images/git install command.png>)
-
+![ google](<images/git install command.png>)
 
 
 
@@ -151,3 +150,6 @@ Git is the most broadly adopted tool of its kind. This makes Git attractive for 
 #### Git merge: Merge changes from one branch into another.
 
 # Git concepts
+
+
+[def]: <images/git install command.png>
