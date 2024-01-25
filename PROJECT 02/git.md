@@ -119,6 +119,14 @@ Git is the most broadly adopted tool of its kind. This makes Git attractive for 
 
 #### 4. Configure your Git username and email using the following commands, replacing Emma's name with your own.
 
+### Debian/Ubuntu: Open a terminal. Run the following commands:
+
+#### sudo apt update
+
+#### sudo apt install git
+
+![sudo apt install git  image](git install command.png)
+
 
 
 
