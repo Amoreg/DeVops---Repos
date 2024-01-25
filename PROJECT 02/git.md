@@ -168,7 +168,9 @@ Create a GitHub account here: [GitHub Pages](https://pages.github.com/).
 
 #### Merge local branch into local master.
 
-#### Push local master to remote git repostiory.
+#### Push local master to remote git repository.
+
+![Git install](<images/git install command2.png>)
 
 
 
