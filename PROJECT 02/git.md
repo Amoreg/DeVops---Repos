@@ -170,7 +170,7 @@ Create a GitHub account here: [GitHub Pages](https://pages.github.com/).
 
 #### Push local master to remote git repository.
 
-![Git workflow](<images/add-commit-push command.png>)
+![Git workflow](<images/add-commit- push command.png>)
 
 
 
