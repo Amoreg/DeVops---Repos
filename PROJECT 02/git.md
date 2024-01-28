@@ -183,6 +183,21 @@ The problem? If you push directly to main, you run the risk of pushing buggy cod
 
 ####  Configure a new branch
 
+#### Once you're in the proper directory, you can then create a new branch. Run this command:
+
+#### git checkout -b <your-new-branch-name> Replace <your-new-branch-name> with the actual name that you want to give your branch.
+
+![New branch;Lagos](<images/New branch.png>)
+
+## List branches
+
+#### git branch
+
+![New branch;Lagos](<images/list branches.png>)
+
+
+
+
 
 
 
