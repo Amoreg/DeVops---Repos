@@ -194,10 +194,16 @@ The problem? If you push directly to the main, you run the risk of pushing buggy
 #### git branch
 
 ![New branch;Lagos](<images/New branch.png>)
-=======
 
+### Use the git switch - (Or git checkout - ) to switch to the previous branch you were working with. This is pretty similar to the cd - command, which is used to switch to the previous directory
 
->>>>>>> Lagos
+ #### use < git checkout (branch name)>
+
+ # Marging a Branch into another Branch
+
+ #### To merge branches locally, use git checkout to switch to the branch you want to merge into. This branch is typically the main branch. Next, use git merge and specify the name of the other branch to bring into this branch.
+
+=
 
 
 
