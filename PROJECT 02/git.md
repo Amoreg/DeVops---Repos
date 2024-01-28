@@ -224,6 +224,12 @@ The problem? If you push directly to the main, you run the risk of pushing buggy
 
 #### 8. git branch -D <branchName>
 
+![Deleting branches](<images/deleting branch.png>)
+
+
+
+
+
 
 
 
