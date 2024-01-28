@@ -193,10 +193,7 @@ The problem? If you push directly to the main, you run the risk of pushing buggy
 
 #### git branch
 
-![New branch;Lagos](<images/list branches.png>)
-
-
-<<<<<<< HEAD
+![New branch;Lagos](<images/New branch.png>)
 =======
 
 
