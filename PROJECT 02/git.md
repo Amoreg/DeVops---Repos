@@ -196,6 +196,11 @@ The problem? If you push directly to the main, you run the risk of pushing buggy
 ![New branch;Lagos](<images/list branches.png>)
 
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> Lagos
 
 
 
