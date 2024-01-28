@@ -204,6 +204,26 @@ The problem? If you push directly to the main, you run the risk of pushing buggy
 
 ![Merging branches](<images/git merge.png>)
 
+# Deleting a branch
+
+## Here are command to delete branch locally:
+
+#### 1. git branch -d "branch name"
+
+#### 2. git branch --delete <branch>
+
+#### 3. git branch -D <branchName>
+
+#### 4. git push origin -d "branch name"
+
+#### 5. git push <remote_name> --delete <branch_name>
+
+#### 6. git push <remote_name> :<branch_name>
+
+#### 7. git branch -d <BranchName>
+
+#### 8. git branch -D <branchName>
+
 
 
 
