@@ -172,6 +172,12 @@ Create a GitHub account here: [GitHub Pages](https://pages.github.com/).
 
 ![Git workflow](<images/add-commit- push command.png>)
 
+# Working with branches
+
+####  Configure a new branch
+
+
+
 
 
 
