@@ -205,7 +205,7 @@ The problem? If you push directly to the main, you run the risk of pushing buggy
 
  #### To merge branches locally, use git checkout to switch to the branch you want to merge into. This branch is typically the main branch. Next, use git merge and specify the name of the other branch to bring into this branch.
 
-=
+![New branch;Lagos](<images/git merge.png>)
 
 
 
