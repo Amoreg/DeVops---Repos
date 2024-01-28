@@ -172,7 +172,14 @@ Create a GitHub account here: [GitHub Pages](https://pages.github.com/).
 
 ![Git workflow](<images/add-commit- push command.png>)
 
-# Working with branches
+# New Branches
+
+### What's a Branch,
+
+#### A branch, at its most basic, is a copy of a Git project that you can change as you like and then combine with the original project.
+
+#### When you create a new repository in GitHub, there's one branch by default---the "main" branch (previously called "master"). This, as the name implies, is the main container where your production code is stored. That is to say (in most cases, at least), if you push a change directly to the main branch, you're making a change directly to the working product.
+The problem? If you push directly to main, you run the risk of pushing buggy code to the production environment, potentially causing serious issues. That's why you need to create a separate branch to do your work in (and then later submit that branch for review before it's merged into the main branch).
 
 ####  Configure a new branch
 
