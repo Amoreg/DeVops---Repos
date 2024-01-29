@@ -227,6 +227,15 @@ The problem? If you push directly to the main, you run the risk of pushing buggy
 ![Deleting branches](<images/deleting branch.png>)
 
 
+# Working with Remote Repositories for Collaboration
+
+### Collaboration in Git often involves the use of remote repositories.
+
+A remote repository is a version of your project hosted on a server or an online platform, allowing multiple developers to work together on the same codebase. Git hosting services like GitHub, GitLab,and Bitbucket are popular platforms for managing remote repositories.
+
+
+
+
 
 
 
