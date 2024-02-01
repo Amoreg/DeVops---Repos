@@ -45,6 +45,26 @@
 
 ## NOTE: LAMP has a classic layered architecture, with Linux at the lowest level. The next layer is Apache and MySQL, followed by PHP. Although PHP is nominally at the top or presentation layer, the PHP component sits inside Apache.
 
+### How LAMP stack elements work together:
+
+#### A high-level look at the LAMP stack order of execution shows how the elements interoperate. The process starts when the Apache web server receives requests for web pages from a user’s browser. If the request is for a PHP file, Apache passes the request to PHP, which loads the file and executes the code contained in the file. PHP also communicates with MySQL to fetch any data referenced in the code. 
+
+#### PHP then uses the code in the file and the data from the database to create the HTML that browsers require to display web pages. The LAMP stack is efficient at handling not only static web pages, but also dynamic pages where the content may change each time it is loaded depending on the date, time, user identity, and other factors. 
+
+#### After running the file code, PHP then passes the resulting data back to the Apache web server to send to the browser. It can also store this new data in MySQL. And of course, all of these operations are enabled by the Linux operating system running at the base of the stack.
+
+## LAMP stack flexibility:
+
+#### Although LAMP uses Linux as the OS, you can use the other components with an alternative OS to meet your specific needs. For example, there is a WAMP stack, which uses Microsoft Windows; MAMP with the Mac OS; and even WIMP, using Windows and the Internet Information Services webserver from Microsoft. 
+
+#### Because LAMP is all open source and non-proprietary, you can avoid lock-in. You have the flexibility to select the right components for specific projects or business requirements.
+
+#### LAMP offers flexibility in other ways as well. Apache is modular in design, and you will find there are existing, customizable modules available for many different extensions. These modules range from support for other languages to authentication capabilities. 
+
+#### Another advantage of LAMP is its secure architecture and well-established encryption practices that have been proven in the enterprise.
+
+
+
 
 
 
