@@ -29,6 +29,31 @@
 
 # TYPES  OF WEB STACK
 
+## LAMP Stack Alternatives
+
+#### Open-source alternatives are:
+
+### MEAN (MongoDB, Express, Angular, Node.js)
+
+### LEMP (Linux, NGINX, MySQL/MariaDB, PHP/Perl/Python)
+
+### LAPP (Linux, Apache, PostgreSQL, PHP)
+
+### LEAP (Linux, Eucalyptus, AppScale, Python)
+
+### LLMP (Linux, Lighttpd, MySQL/MariaDB, PHP/Perl/Python)
+
+### XAMPP (Cross-platform, Apache, MariaDB, PHP, Perl)
+
+#### Non-open source alternatives include:
+
+### WAMP (Windows, Apache, MySQL/MariaDB, PHP/Perl/Python)
+
+### WIMP (Windows, Internet Information Services, MySQL/MariaDB, PHP/Perl/Python)
+
+### MAMP (macOS, Apache, MySQL/MariaDB, PHP/Perl/Python)
+
+
 ### 1. LAMP STACK:
 
 ### LAMP stands for Linux, Apache, MySQL, and PHP. Together, they provide a proven set of software for delivering high-performance web applications. Each component contributes essential capabilities to the stack
