@@ -27,6 +27,30 @@
 
 #### The programming language, also known as the script interpreter, operates on the client side and within the requesting browser. It's required to realize dynamic websites and web applications. PHP is one of the most popular script interpreters; others include Java, Ruby, Perl and Python.
 
+# TYPES  OF WEB STACK
+
+### 1. LAMP STACK:
+
+### LAMP stands for Linux, Apache, MySQL, and PHP. Together, they provide a proven set of software for delivering high-performance web applications. Each component contributes essential capabilities to the stack
+
+### LAMP stack components
+
+#### 1. Linux: The operating system. Linux is a free and open-source operating system (OS) that has been around since the mid-1990s. Today, it has an extensive worldwide user base that extends across industries. Linux is popular in part because it offers more flexibility and configuration options than some other operating systems.
+
+#### 2. Apache: The web server. The Apache web server processes requests and serves up web assets via HTTP so that the application is accessible to anyone in the public domain over a simple web URL. Developed and maintained by an open community, Apache is a mature, feature-rich server that runs a large share of the websites currently on the internet. 
+
+#### 3. MySQL: The database. MySQL is an open-source relational database management system for storing application data. With My SQL, you can store all your information in a format that is easily queried with the SQL language. SQL is a great choice if you are dealing with a business domain that is well structured, and you want to translate that structure into the backend. MySQL is suitable for running even large and complex sites. See "SQL vs. NoSQL Databases: What's the Difference?" for more information on SQL and NoSQL databases.
+
+#### 4. PHP: The programming language. The PHP open-source scripting language works with Apache to help you create dynamic web pages. You cannot use HTML to perform dynamic processes such as pulling data out of a database. To provide this type of functionality, you simply drop PHP code into the parts of a page that you want to be dynamic. PHP is designed for efficiency. It makes programming easier—and a bit more fun—by allowing you to write new code, hit refresh, and immediately see the resulting changes without the need for compiling.
+
+## NOTE: LAMP has a classic layered architecture, with Linux at the lowest level. The next layer is Apache and MySQL, followed by PHP. Although PHP is nominally at the top or presentation layer, the PHP component sits inside Apache.
+
+
+
+
+
+
+
 
 
 
