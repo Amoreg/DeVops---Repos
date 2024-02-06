@@ -166,6 +166,35 @@
 
 ### For Windows using PuTTY, open PuTTY and enter your EC2 instance's public IP address under "Host Name (or IP address)" field, then navigate to "SSH" > "Auth" and browse to select your private key (.pem) file under "Private key file for authentication". Click "Open" to start the SSH session.For Windows Subsystem for Linux (WSL), you can use the same SSH command as for Unix-like systems.
 
+# Installing Apache2 on an AWS Ubuntu EC2 instance
+
+## 1.  SSH into your EC2 instance: Use the terminal and SSH into your Ubuntu EC2 instance using the command provided earlier. Make sure you have the necessary permissions and the correct private key.
+
+## 2.  Update package lists: Before installing Apache2, it's a good practice to update the package lists to ensure you're installing the latest available version. Run the following command:
+
+### sudo apt update
+
+## 3.  Install Apache2: Once the package lists are updated, you can install Apache2 using the following command:
+
+### sudo apt install apache2
+
+## 4.  Start Apache2 service: After installation, start the Apache2 service using the following command:
+
+###  sudo systemctl start apache2
+
+## 5.   Enable Apache2 to start on boot: Ensure that Apache2 starts automatically when the system boots up by enabling it with the following command:
+
+###  sudo systemctl enable apache2
+
+## 6.  Check Apache2 status: To verify that Apache2 is running without any issues, you can check its status using the following command:
+
+###   sudo systemctl status apache2
+
+## 7.  Access Apache2 default page: Once Apache2 is installed and running, you can access the default Apache2 landing page by entering your EC2 instance's public IP address in a web browser. 
+
+
+
+
 
 
 
