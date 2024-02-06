@@ -112,6 +112,8 @@
 
 ### 1.   Log in to your AWS console.
 
+![AWS console](<images/signin to console.png>)
+
 ### 2.   Search for EC2 in the search bar and click on it.
 
 ### 3.	Once you are at the EC2 Dashboard, click on Launch to launch an instance.
