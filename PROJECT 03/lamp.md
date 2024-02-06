@@ -90,7 +90,7 @@
 
 # LEMP STACK SETUP
 
-### Create a AWS account here: [aws page ](https://aws.amazon.com>account.sign-up/)..
+### Create a AWS account here: [Aws signup page ](https://aws.amazon.com)..
 
 ### Good knowledge of Linux
 
