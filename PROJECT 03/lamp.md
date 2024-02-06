@@ -84,13 +84,13 @@
 
 #### Because LAMP is all open source and non-proprietary, you can avoid lock-in. You have the flexibility to select the right components for specific projects or business requirements.
 
-#### LAMP offers flexibility in other ways as well. Apache is modular in design, and you will find there are existing, customizable modules available for many different extensions. These modules range from support for other languages to authentication capabilities. 
+#### LAMP offers flexibility in other ways as well. Apache is modular in design, and you will find there argit e existing, customizable modules available for many different extensions. These modules range from support for other languages to authentication capabilities. 
 
 #### Another advantage of LAMP is its secure architecture and well-established encryption practices that have been proven in the enterprise.
 
 # LEMP STACK SETUP
 
-### Open AWS account. CLICK HERE to create one.
+### Create a AWS account here: [aws page ](https://aws.amazon.com>account.sign-up/)..
 
 ### Good knowledge of Linux
 
