@@ -57,7 +57,7 @@ Git is the most broadly adopted tool of its kind. This makes Git attractive for 
 
 ## 13. Data Science and Machine Learning:
 
-#### Versioning Data and Notebooks: Data scientists use Git to version control datasets, Jupyter notebooks, and machine learning models. It helps track changes, collaborate with team members, and reproduce experiments.Experiment Tracking: Git enables the tracking of different experimental versions, making it easier to compare results, share findings, and reproduce experiments.
+#### Versioning Data and Notebooks: Data scientists use Git to version control datasets, Jupyter notebooks, and machine learning models. It helps track changes, collaborate with team members, and reproduce experiments. Experiment Tracking: Git enables the tracking of different experimental versions, making it easier to compare results, share findings, and reproduce experiments.
 
 ## 14. Technical Documentation:
 
@@ -141,7 +141,7 @@ Create a GitHub account here: [GitHub Pages](https://pages.github.com/).
 
 #### Git push: Push local changes to a remote repository.
 
-#### Git pull: Fetch changes from a remote repository and merge them into the local branch.
+#### Git pull: Fetch changes from a remote repository and merges them into the local branch.
 
 #### Git branch: Create, list, or delete branches.
 
@@ -149,19 +149,19 @@ Create a GitHub account here: [GitHub Pages](https://pages.github.com/).
 
 # Git concepts
 
-## Typical Workflow are as follows
+## Typical Workflow is as follows
 
-#### Get local copy of code.
+#### Get a local copy of the code.
 
 #### Create a branch.
 
 #### Edit files.
 
-#### Add and commit changes to local machine.
+#### Add and commit changes to a local machine.
 
-#### Get back in sync with changes commited by others.
+#### Get back in sync with changes committed by others.
 
-#### Push branch to remote git repository.
+#### Push branch to the remote git repository.
 
 #### Merge local branch into local master.
 
@@ -206,7 +206,7 @@ The problem? If you push directly to the main, you run the risk of pushing buggy
 
 # Deleting a branch
 
-## Here are command to delete branch locally:
+## Here are commands to delete the branch locally:
 
 #### 1. git branch -d "branch name"
 
@@ -231,7 +231,7 @@ The problem? If you push directly to the main, you run the risk of pushing buggy
 
 ### Collaboration in Git often involves the use of remote repositories.
 
-A remote repository is a version of your project hosted on a server or an online platform, allowing multiple developers to work together on the same codebase. Git hosting services like GitHub, GitLab,and Bitbucket are popular platforms for managing remote repositories.
+A remote repository is a version of your project hosted on a server or an online platform, allowing multiple developers to work together on the same codebase. Git hosting services like GitHub, GitLab, and Bitbucket are popular platforms for managing remote repositories.
 
 
 
