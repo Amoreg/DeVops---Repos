@@ -156,9 +156,11 @@
 
 ## b.	Accessing using COMMAND LINE OR BASH
 
-## SYNTAX FOR COMMAND / BASH
+## SSH into your Ubuntu EC2 instance-For Unix-like systems (Linux/macOS), use the following command:
 
 ### ssh -i /path/to/your/private/key.pem ubuntu@your-ec2-public-ip 
+
+![Connected vis Terminal](<images/connected to EC2 via Terminal.png>)
 
 #### (Replace /path/to/your/private/key.pem with the path to your private key file, and your-ec2-public-ip with your EC2 instance's public IP address.)
 
