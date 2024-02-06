@@ -122,9 +122,13 @@
 
 #### 4.	In the Name and Tags step you can add tags to an instance, here tags help you to enable categorize AWS resources in different ways, for example, by owner, environment, or purpose.
 
+![Identification](<images/Name tag.png>)
+
 ### 5.	Choose Amazon Linux, select Amazon Linux 2 AMI (HVM) architecture and Click on select
 
 ### 6.	For Select the t2.micro instance type, if you want you may select another instance type but they are chargeable so we choose the t2.micro instance type which is eligible for the free tier and limited resources.
+
+![Instance type](<images/Select instance.png>)
 
 ### 7.Create the Key Pair.
 
