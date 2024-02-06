@@ -116,6 +116,8 @@
 
 ### 2.   Search for EC2 in the search bar and click on it.
 
+![Search for EC2](<images/search for EC2.png>)
+
 ### 3.	Once you are at the EC2 Dashboard, click on Launch to launch an instance.
 
 #### 4.	In the Name and Tags step you can add tags to an instance, here tags help you to enable categorize AWS resources in different ways, for example, by owner, environment, or purpose.
