@@ -124,7 +124,7 @@
 
 ![Identification](<images/Name tag.png>)
 
-### 5.	Choose Amazon Linux, select Amazon Linux 2 AMI (HVM) architecture and Click on select
+### 5.	Choose Ubuntu server 22.04,(HVM),SSD VOLUME architecture 
 
 ### 6.	For Select the t2.micro instance type, if you want you may select another instance type but they are chargeable so we choose the t2.micro instance type which is eligible for the free tier and limited resources.
 
@@ -139,6 +139,8 @@
 ![Allow SSH & HTTP](<images/Allow ssh and http.png>)
 
 ### 9.9.	Now review all the things you have Configured and Click on Launch Instance.
+
+![Start instatnce](<images/EC2 running.png>)
 
 
 
