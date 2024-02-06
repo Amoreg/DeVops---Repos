@@ -106,6 +106,33 @@
 
 ### Step 5: Creating a PHP File to Test your LEMP stack.
 
+# 1.Creating an EC2 Instance
+
+### Amazon EC2 basically provides a Virtual Computing environment, where they have pre-configured AMI (Amazon Machine Image) from which you can launch Virtual machines. 
+
+### 1.   Log in to your AWS console.
+
+### 2.   Search for EC2 in the search bar and click on it.
+
+### 3.	Once you are at the EC2 Dashboard, click on Launch to launch an instance.
+
+#### 4.	In the Name and Tags step you can add tags to an instance, here tags help you to enable categorize AWS resources in different ways, for example, by owner, environment, or purpose.
+
+### 5.	Choose Amazon Linux, select Amazon Linux 2 AMI (HVM) architecture and Click on select
+
+### 6.	For Select the t2.micro instance type, if you want you may select another instance type but they are chargeable so we choose the t2.micro instance type which is eligible for the free tier and limited resources.
+
+### 7.Create the Key Pair.
+
+### 8.	Now select HTTP  and SSH Port under Network Setting.We add http rule here because we need to access our Webpage. As the communication for request and response between Webserver and Browser happens on port 80 which is http.
+
+### 9.9.	Now review all the things you have Configured and Click on Launch Instance.
+
+
+
+
+
+
 
 
 
