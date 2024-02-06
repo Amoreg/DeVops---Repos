@@ -150,6 +150,10 @@
 
 ![Select & connect (GUI)](<images/Select instance and connect.png>)
 
+## CONNECTED INTERFACE (GUI)
+
+![GUI INTERFACE](<images/connected to the server.png>)
+
 ## b.	Accessing using COMMAND LINE OR BASH
 
 ## SYNTAX FOR COMMAND / BASH
