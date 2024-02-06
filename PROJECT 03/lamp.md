@@ -88,6 +88,24 @@
 
 #### Another advantage of LAMP is its secure architecture and well-established encryption practices that have been proven in the enterprise.
 
+# LEMP STACK SETUP
+
+### Open AWS account. CLICK HERE to create one.
+
+### Good knowledge of Linux
+
+### Understand ssh kegs. click on this link to learn more on SSH
+
+### Step 1: Configuring your server with Ubuntu Linux AWS EC2 
+
+### Step 2: Installing and Configuring mysqel Server. ...
+
+### Step 3: Installing MySQL Database Management System. ...
+
+### Step 4: Installing PHP and Setting up Nginx to Use the PHP Processor. ...
+
+### Step 5: Creating a PHP File to Test your LEMP stack.
+
 
 
 
