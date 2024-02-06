@@ -132,7 +132,11 @@
 
 ### 7.Create the Key Pair.
 
+![Key pair](<images/key pair.png>)
+
 ### 8.	Now select HTTP  and SSH Port under Network Setting.We add http rule here because we need to access our Webpage. As the communication for request and response between Webserver and Browser happens on port 80 which is http.
+
+![Allow SSH & HTTP](<images/Allow ssh and http.png>)
 
 ### 9.9.	Now review all the things you have Configured and Click on Launch Instance.
 
