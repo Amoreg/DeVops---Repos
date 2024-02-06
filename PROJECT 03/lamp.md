@@ -142,6 +142,27 @@
 
 ![Start instatnce](<images/EC2 running.png>)
 
+# ACCESSING EC2 FROM THE TERMINAL
+
+## a.	Accessing via Browser using EC2 instance Connect.GUI
+
+![GUI CONNECT TO SERVER](<images/connect.png>)
+
+![Select & connect (GUI)](<images/Select instance and connect.png>)
+
+## b.	Accessing using COMMAND LINE OR BASH
+
+## SYNTAX FOR COMMAND / BASH
+
+### ssh -i /path/to/your/private/key.pem ubuntu@your-ec2-public-ip 
+
+#### (Replace /path/to/your/private/key.pem with the path to your private key file, and your-ec2-public-ip with your EC2 instance's public IP address.)
+
+### For Windows using PuTTY, open PuTTY and enter your EC2 instance's public IP address under "Host Name (or IP address)" field, then navigate to "SSH" > "Auth" and browse to select your private key (.pem) file under "Private key file for authentication". Click "Open" to start the SSH session.For Windows Subsystem for Linux (WSL), you can use the same SSH command as for Unix-like systems.
+
+
+
+
 
 
 
