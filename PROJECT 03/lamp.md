@@ -174,6 +174,8 @@
 
 ### sudo apt update
 
+![Connected vis Terminal](<images/sudo update.png>)
+
 ## 3.  Install Apache2: Once the package lists are updated, you can install Apache2 using the following command:
 
 ### sudo apt install apache2
@@ -190,7 +192,11 @@
 
 ###   sudo systemctl status apache2
 
+![Connected vis Terminal](<images/.png>)
+
 ## 7.  Access Apache2 default page: Once Apache2 is installed and running, you can access the default Apache2 landing page by entering your EC2 instance's public IP address in a web browser. 
+
+![Connected vis Terminal](<Access Apache2 default page.png>)
 
 
 
