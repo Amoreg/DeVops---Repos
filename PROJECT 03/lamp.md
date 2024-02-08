@@ -192,11 +192,11 @@
 
 ###   sudo systemctl status apache2
 
-![Connected vis Terminal](<images/.png>)
+![Apache2 update](<images/sudo systemctl status apache2.png>)
 
-## 7.  Access Apache2 default page: Once Apache2 is installed and running, you can access the default Apache2 landing page by entering your EC2 instance's public IP address in a web browser. 
+## 7.  Access Apache2 default page: Once Apache2 is installed and running, you can access the default Apache2 landing page by entering your EC2 instance's public IP address in a web browser..
 
-![Connected vis Terminal](<Access Apache2 default page.png>)
+![Apache2 page on http](<Access Apache2 default page.png>)
 
 
 
