@@ -196,7 +196,7 @@
 
 ## 7.  Access Apache2 default page: Once Apache2 is installed and running, you can access the default Apache2 landing page by entering your EC2 instance's public IP address in a web browser..
 
-![Apache2 page ](<apache2 page.png>)
+![Apache2 page ](<images/apache2 page.png>)
 
 
 
