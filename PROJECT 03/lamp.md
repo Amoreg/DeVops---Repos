@@ -198,6 +198,27 @@
 
 ![Apache2 page ](<images/apache2 page.png>)
 
+# How To Find your Server’s Public IP Address
+
+### The curl utility to contact an outside party to tell you how it sees your server. This is done by asking a specific server what your IP address is:
+
+###  curl http://icanhazip.com
+
+# Installing MYSQL
+
+###   $ sudo apt install mysql-server
+
+###   $ sudo mysql --version
+
+#  To Secure the installation for bug and dangerous lock down
+
+###  $ sudo mysql_secure_installation
+
+### Now read and complete the installtion steps.When it's done test if you are able to logged in to the mysql console
+
+
+
+
 
 
 
