@@ -98,15 +98,17 @@
 
 ### Step 1: Configuring your server with Ubuntu Linux AWS EC2 
 
-### Step 2: Installing and Configuring mysqel Server. ...
+### Step 2: Installing Apache and Updating the Firewall
 
-### Step 3: Installing MySQL Database Management System. ...
+### Step 3: Installing and Configuring mysqel Server. ...
 
-### Step 4: Installing PHP and Setting up Nginx to Use the PHP Processor. ...
+### Step 4: Installing MySQL Database Management System. ...
 
-### Step 5: Creating a PHP File to Test your LEMP stack.
+### Step 5: Installing PHP and Setting up Nginx to Use the PHP Processor. ...
 
-# 1.Creating an EC2 Instance
+### Step 6: Creating a PHP File to Test your LEMP stack.
+
+# Step 1.  Creating an EC2 Instance
 
 ### Amazon EC2 basically provides a Virtual Computing environment, where they have pre-configured AMI (Amazon Machine Image) from which you can launch Virtual machines. 
 
@@ -166,7 +168,7 @@
 
 ### For Windows using PuTTY, open PuTTY and enter your EC2 instance's public IP address under "Host Name (or IP address)" field, then navigate to "SSH" > "Auth" and browse to select your private key (.pem) file under "Private key file for authentication". Click "Open" to start the SSH session.For Windows Subsystem for Linux (WSL), you can use the same SSH command as for Unix-like systems.
 
-# Installing Apache2 on an AWS Ubuntu EC2 instance
+# step 2.  Installing Apache2 on an AWS Ubuntu EC2 instance
 
 ## 1.  SSH into your EC2 instance: Use the terminal and SSH into your Ubuntu EC2 instance using the command provided earlier. Make sure you have the necessary permissions and the correct private key.
 
@@ -204,7 +206,7 @@
 
 ###  curl http://icanhazip.com
 
-# Installing MYSQL
+#  Step 3.  Installing MYSQL
 
 ###   $ sudo apt install mysql-server
 
@@ -236,7 +238,7 @@
 
 ####  So far we have installed Apache web server to host our website and MySQL Database to store and mange the data. PHP will be the layer that displays dynamic content to the user.We need to install the PHP packages that so that the PHP component itself can communicate with the MySQL database
 
-## Insalling PHP
+## Step 4.  Insalling PHP
 
 ####  To install PHP packages, run the following command:
 
@@ -250,7 +252,7 @@
 
 ##  With the PHP successfully installed we have completed the LAMP stack sequence and have it fully operational!
 
-# Step 4   Creating a Virtual Host for your Website #
+# Step 5.   Creating a Virtual Host for your Website #
 
 ### When using the Apache web server, you can create virtual hosts (similar to server blocks in Nginx) to encapsulate configuration details and host more than one domain from a single server. In this guide, we’ll set up a domain called your_domain, but you should replace this with your own domain name.
 
@@ -304,6 +306,8 @@
 
 
 # The PHP page provides information about the server and ensures that settings are setup properly. If you see this page, then CONGRATULATIONS that means the PHP installation was SUCCESSFUL!
+
+#  For a secure connection, ensure that connections to your web server are secured, by serving them via HTTPS. In order to accomplish that, you can use Let’s Encrypt to secure your site with a free TLS/SSL certificate.
 
 # Be sure to delete all your resources to avoid any cost. !!.
 
