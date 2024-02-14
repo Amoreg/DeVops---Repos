@@ -282,7 +282,7 @@
 
 ##### sudo apache2ctl configtest
 
-![Disable apache2 defult page ](<images/Disable apaches2 defult page.png>)
+![Disable apache2 defult page ](<images/Disable apache2 defult page.png>)
 
 ## Reload Apache so these changes take effect:
 
