@@ -278,6 +278,40 @@
 
 #### sudo a2ensite amoreg.org
 
+### To disable the default website that comes installed with Apache. This is required if you’re not using a custom domain name, because in this case Apache’s default configuration would override your virtual host. To disable Apache’s default website, tuse the command below:
+
+##### sudo apache2ctl configtest
+
+![Disable apache2 defult page ](<images/Disable apaches2 defult page.png>)
+
+## Reload Apache so these changes take effect:
+
+####  sudo systemctl reload apache2
+
+![Relad apache2 ](<images/reload apapche2.png>)
+
+##  The new website is now active, but the web root /var/www/yamoreg.org is still empty. Create an index.html file in that location to test that the virtual host works as expected:
+
+####  $nano /var/www/amoreg.org/index.html
+
+![Index page ](<images/index.html.png>)
+
+##  Save and close the file, then go to your browser and access your server’s domain name or IP address:
+
+####  http://server_domain_or_IP
+
+![Index page ](<images/landing page.png>)
+
+
+# The PHP page provides information about the server and ensures that settings are setup properly. If you see this page, then CONGRATULATIONS that means the PHP installation was SUCCESSFUL!
+
+# Be sure to delete all your resources to avoid any cost !!
+
+
+
+
+
+
 
 
 
