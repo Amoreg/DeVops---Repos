@@ -56,6 +56,8 @@
 
 ### 1. LAMP STACK:
 
+![LAMP DESIGN](<images/LAMP design.png>)
+
 ### LAMP stands for Linux, Apache, MySQL, and PHP. Together, they provide a proven set of software for delivering high-performance web applications. Each component contributes essential capabilities to the stack
 
 ### LAMP stack components
@@ -177,6 +179,8 @@
 ### sudo apt update
 
 ![Connected vis Terminal](<images/sudo update.png>)
+
+![connect to EC2](<images/connect to EC2.png>)
 
 ## 3.  Install Apache2: Once the package lists are updated, you can install Apache2 using the following command:
 
