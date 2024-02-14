@@ -7,15 +7,15 @@
 
 # Benefits of NGINX
 
-### 1. Reduces the waiting time to load a website. You don’t have to worry about high latency on your websites, therefore providing a good user experience. 
+#### 1. Reduces the waiting time to load a website. You don’t have to worry about high latency on your websites, therefore providing a good user experience. 
 
-### 2. Speeds up performance by routing traffic to web servers in a way that increases the overall speed. This feature provides a good browsing experience to your users.
+#### 2. Speeds up performance by routing traffic to web servers in a way that increases the overall speed. This feature provides a good browsing experience to your users.
 
-### 3. Acts as an inexpensive and robust load balancer.
+#### 3. Acts as an inexpensive and robust load balancer.
 
-### 4. Offers scalability and the ability to handle concurrent requests. 
+#### 4. Offers scalability and the ability to handle concurrent requests. 
 
-### 5. Allows on-the-fly upgrades without downtime.
+#### 5. Allows on-the-fly upgrades without downtime.
 
 #  USE CASES
 
