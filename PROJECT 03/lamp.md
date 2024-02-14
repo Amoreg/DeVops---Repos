@@ -268,7 +268,7 @@
 
 ####  Then, open a new configuration file in Apache’s sites-available directory using your preferred command-line editor. Here, we’ll use nano:Save and close the file when you’re done. If you’re using nano, do that by pressing CTRL+X, then Y and ENTER
 
-![Domian directory ](<images/Domian directory.png>)
+![Domian directory ](<images/Domain directory.png>)
 
 ###  With this VirtualHost configuration, we’re telling Apache to serve your_domain using /var/www/your_domain as the web root directory. If you’d like to test Apache without a domain name, you can remove or comment out the options ServerName and ServerAlias by adding a pound sign (#) the beginning of each option’s lines.
 
