@@ -19,23 +19,23 @@
 
 #  USE CASES
 
-###  A web server. This is the most common because of its performance and scalability.
+####  A web server. This is the most common because of its performance and scalability.
 
-###  A reverse proxy server. NGINX does this by directing the client’s request to the appropriate back-end server. 
+####  A reverse proxy server. NGINX does this by directing the client’s request to the appropriate back-end server. 
 
-###  A load balancer. It automatically distributes your network traffic load without manual configuration.
+####  A load balancer. It automatically distributes your network traffic load without manual configuration.
 
-###  An API gateway. This is useful for request routing, authentication, and exception handling.
+####  An API gateway. This is useful for request routing, authentication, and exception handling.
 
-###  A firewall for web applications. This protects your application by filtering incoming and outgoing network requests on your server.
+####  A firewall for web applications. This protects your application by filtering incoming and outgoing network requests on your server.
 
-###  A cache. NGINX acts as a cache to help store your data for future requests.
+####  A cache. NGINX acts as a cache to help store your data for future requests.
 
-###  Protection against distributed-denial-of-service (DDoS) attacks.
+####  Protection against distributed-denial-of-service (DDoS) attacks.
 
-###  K8s. These automate deployments and scaling and manage containerized applications.
+####  K8s. These automate deployments and scaling and manage containerized applications.
 
-###  A sidecar proxy. This routes traffic to and from the container it runs alongside.
+####  A sidecar proxy. This routes traffic to and from the container it runs alongside.
 
 
 
