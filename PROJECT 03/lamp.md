@@ -136,7 +136,7 @@
 
 ### 7.Create the Key Pair.
 
-![Key pair](<images/key pair.png>)
+![Key pair](<images/Key pair.png>)
 
 ### 8.	Now select HTTP  and SSH Port under Network Setting.We add http rule here because we need to access our Webpage. As the communication for request and response between Webserver and Browser happens on port 80 which is http.
 
