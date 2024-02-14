@@ -210,7 +210,7 @@
 
 ###   $ sudo mysql --version
 
-#  To Secure the installation for bug and dangerous lock down
+#  To Secure the installation from bug and dangerous lock down
 
 ###  $ sudo mysql_secure_installation
 
