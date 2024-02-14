@@ -294,7 +294,7 @@
 
 ####  $nano /var/www/amoreg.org/index.html
 
-![Index page ](<images/index.html.png>)
+![Index page ](<images/Index.html.png>)
 
 ##  Save and close the file, then go to your browser and access your server’s domain name or IP address:
 
@@ -305,7 +305,7 @@
 
 # The PHP page provides information about the server and ensures that settings are setup properly. If you see this page, then CONGRATULATIONS that means the PHP installation was SUCCESSFUL!
 
-# Be sure to delete all your resources to avoid any cost !!
+# Be sure to delete all your resources to avoid any cost. !!.
 
 
 
