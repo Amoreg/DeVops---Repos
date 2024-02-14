@@ -242,7 +242,44 @@
 
 ###  sudo apt install php libapache2-mod-php php-mysql
 
-![Mysql installed ](<images/install php.png>)
+![pHP installed ](<images/install php.png>)
+
+### Run the “php -v” command after installation to verify that it was successfully installed
+
+![Php check ](<images/php check.png>)
+
+##  With the PHP successfully installed we have completed the LAMP stack sequence and have it fully operational!
+
+# Step 4   Creating a Virtual Host for your Website #
+
+### When using the Apache web server, you can create virtual hosts (similar to server blocks in Nginx) to encapsulate configuration details and host more than one domain from a single server. In this guide, we’ll set up a domain called your_domain, but you should replace this with your own domain name.
+
+##  First things first we are going to setup a domain and call it “amoreg.org”.
+
+##  By default the Apache web server only allows one server block to be enabled. We are going to setup our own directory for our domain
+
+### Run the following command to create a directory for “amoreg.org”
+
+####  sudo mkdir /var/www/amoreg.org
+
+###  Next, assign ownership of the directory with the $USER environment variable, which will reference your current system user:
+
+####   sudo chown -R $USER:$USER /var/www/amoreg.org
+
+####  Then, open a new configuration file in Apache’s sites-available directory using your preferred command-line editor. Here, we’ll use nano:Save and close the file when you’re done. If you’re using nano, do that by pressing CTRL+X, then Y and ENTER
+
+![Domian directory ](<images/Domian directory.png>)
+
+###  With this VirtualHost configuration, we’re telling Apache to serve your_domain using /var/www/your_domain as the web root directory. If you’d like to test Apache without a domain name, you can remove or comment out the options ServerName and ServerAlias by adding a pound sign (#) the beginning of each option’s lines.
+
+###  Verify the file we created is in the directory by running the “ls” command to have all the files in the directory listed on the command line
+
+### Use a2ensite command  to enable the new virtual host:
+
+#### sudo a2ensite amoreg.org
+
+
+
 
 
 
