@@ -208,6 +208,8 @@
 
 ###   $ sudo apt install mysql-server
 
+![Mysql installed ](<images/install mysql.png>)
+
 ###   $ sudo mysql --version
 
 #  To Secure the installation from bug and dangerous lock down
@@ -216,6 +218,31 @@
 
 ### Now read and complete the installtion steps.When it's done test if you are able to logged in to the mysql console
 
+#### $ sudo mysql
+
+![Mysql installed ](<images/Mysql page.png>)
+
+##  Exit the MySQL console, type:
+
+#### mysql> exit
+
+#### Notice that you didn’t need to provide a password to connect as the root user, even though you have defined one when running the mysql_secure_installation script. That is because the default authentication method for the administrative MySQL user is unix_socket instead of password. Even though this might seem like a security concern, it makes the database server more secure because the only users allowed to log in as the root MySQL user are the system users with sudo privileges connecting from the console or through an application running with the same privileges. In practical terms, that means you won’t be able to use the administrative database root user to connect from your PHP application. Setting a password for the root MySQL account works as a safeguard, in case the default authentication method is changed from unix_socket to password.
+
+#### To increased security, it’s best to have dedicated user accounts with less expansive privileges set up for every database, especially if you plan on having multiple databases hosted on your server.
+
+##  MySQL server is now installed and secured.
+
+# Installing PHP to Display Dynamic Content to the End User #
+
+####  So far we have installed Apache web server to host our website and MySQL Database to store and mange the data. PHP will be the layer that displays dynamic content to the user.We need to install the PHP packages that so that the PHP component itself can communicate with the MySQL database
+
+## Insalling PHP
+
+####  To install PHP packages, run the following command:
+
+###  sudo apt install php libapache2-mod-php php-mysql
+
+![Mysql installed ](<images/install php.png>)
 
 
 
