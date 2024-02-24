@@ -37,7 +37,8 @@
 
 ####  - A sidecar proxy. This routes traffic to and from the container it runs alongside.
 
-# Step 1 – Installing the Nginx Web Server
+# Step 1 – $ sudo systemctl status nginx
+ Web Server
 
 ## Prerequisites
 
@@ -45,9 +46,14 @@
 
 ##### It is recommended that you enable the most restrictive profile that will still allow the traffic you need. Since you haven’t configured SSL for your server in this guide, you will only need to allow regular HTTP traffic on port 80. run :
 
+#  To Installing the Nginx Web server . Run:
+
+#### sudo apt update
+
+#### sudo apt install nginx
+
  #### sudo ufw allow 'Nginx HTTP'
  
-
 #### Before testing Nginx, the firewall software needs to be adjusted to allow access to the service. Nginx registers itself as a service with UFW upon installation, making it straightforward to allow Nginx access. run:
 
 #####  sudo ufw app list
@@ -57,6 +63,26 @@
 #### sudo ufw status
 
 #### verify the the Ngnix is runing, Run: $ sudo systemctl status nginx
+
+### To re-enable the service to start up at boot, you can type:
+
+####  sudo systemctl enable nginx
+
+# Access the server on the browser
+
+####  With the new firewall rule added, you can test if the server is up and running by accessing your server’s domain name or public IP address in your web browser.
+
+### http://server_domain_or_IP
+
+####  If you do not have a domain name pointed at your server and you do not know your server’s public IP address, you can find it by running the following command: This will print out a few IP addresses. You can try each of them in turn in your web browser.
+
+#####  $ ip addr show eth0 | grep inet | awk '{ print $2; }' | sed 's/\/.*$//'
+
+## - Check which IP address is accessible, as viewed from other locations on the internet:  
+ 
+#### $ curl -4 icanhazip.com
+
+
 
 
 
