@@ -37,26 +37,21 @@
 
 ####  - A sidecar proxy. This routes traffic to and from the container it runs alongside.
 
-# Step 1 – $ sudo systemctl status nginx
- Web Server
+# Step 1 – Step 1 – Installing the Nginx Web Server
 
 ## Prerequisites
 
 ####  we need  to enable port 80 and 443 ( Http nad Https)for Nginx from AWS you should have a regular, non-root user with sudo privileges configured on your server for installation  
 
-##### It is recommended that you enable the most restrictive profile that will still allow the traffic you need. Since you haven’t configured SSL for your server in this guide, you will only need to allow regular HTTP traffic on port 80. run :
-
-#  To Installing the Nginx Web server . Run:
+# To Installing the Nginx Web server . Run:
 
 #### sudo apt update
 
 #### sudo apt install nginx
-
- #### sudo ufw allow 'Nginx HTTP'
  
-#### Before testing Nginx, the firewall software needs to be adjusted to allow access to the service. Nginx registers itself as a service with UFW upon installation, making it straightforward to allow Nginx access. run:
+#### Before testing Nginx, the firewall software needs to be adjusted to allow access to the service. Nginx registers itself as a service with UFW upon installation, making it straightforward to allow Nginx access. If you have the ufw firewall enabled, you will need to allow connections to Nginx. Nginx registers a few different UFW application profiles upon installation. To check which UFW profiles are available, run: sudo ufw app list
 
-#####  sudo ufw app list
+##### ##### It is recommended that you enable the most restrictive profile that will still allow the traffic you need. Since you haven’t configured SSL for your server in this guide, you will only need to allow regular HTTP traffic on port 80. Enable this by typing: run:  sudo ufw allow 'Nginx HTTP'
 
 #### To verify the change by running:
 
