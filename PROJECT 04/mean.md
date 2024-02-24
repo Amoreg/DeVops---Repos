@@ -37,7 +37,7 @@
 
 ####  - A sidecar proxy. This routes traffic to and from the container it runs alongside.
 
-# Step 1 – Step 1 – Installing the Nginx Web Server
+# Step 1 –  Installing the Nginx Web Server
 
 ## Prerequisites
 
@@ -68,6 +68,36 @@
 ####  With the new firewall rule added, you can test if the server is up and running by accessing your server’s domain name or public IP address in your web browser.
 
 ### http://server_domain_or_IP
+
+
+# Step 2 — Installing MySQL  #
+
+#### After the web server is operational, you must install the database system in order to store and manage content for your website. A well-liked database management system used in PHP settings is MySQL. to install run: 
+
+####  sudo apt install mysql-server
+
+##### Press Y to confirm installation when prompted, and then hit ENTER.
+
+##### It is advised that you execute a security script that is pre-installed with MySQL after the installation is complete. This script will lock down access to your database system and remove several unsafe default settings. To initiate the interactive script, execute:
+
+#### sudo mysql_secure_installation
+
+#####   This will ask if you want to configure the VALIDATE PASSWORD PLUGIN.
+
+### To connect to the MySQL server as the administrative database user root, which is inferred by the use of sudo when running this command. Run:
+
+####  sudo mysql
+
+## To secure and remove insecure default setting and lock down the data base syastem, it is recommended the we run a secutity script that come pre install with MySQL.before the scrpit we set a root user, using musql_native_ password as default authentication method. Run:
+
+####   ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'PassWord.1';
+
+#### To exit the MySQL console, Run:
+
+#####  exit.
+
+
+
 
 
 
