@@ -47,9 +47,15 @@
 
 #### sudo apt update
 
+![LAMP DESIGN](<images/LAMP design.png>)
+
 #### sudo apt install nginx
+
+![LAMP DESIGN](<images/LAMP design.png>)
  
 #### Before testing Nginx, the firewall software needs to be adjusted to allow access to the service. Nginx registers itself as a service with UFW upon installation, making it straightforward to allow Nginx access. If you have the ufw firewall enabled, you will need to allow connections to Nginx. Nginx registers a few different UFW application profiles upon installation. To check which UFW profiles are available, run: sudo ufw app list
+
+![LAMP DESIGN](<images/LAMP design.png>)
 
 ##### ##### It is recommended that you enable the most restrictive profile that will still allow the traffic you need. Since you haven’t configured SSL for your server in this guide, you will only need to allow regular HTTP traffic on port 80. Enable this by typing: run:  sudo ufw allow 'Nginx HTTP'
 
@@ -57,11 +63,19 @@
 
 #### sudo ufw status
 
+![LAMP DESIGN](<images/LAMP design.png>)
+
 #### verify the the Ngnix is runing, Run: $ sudo systemctl status nginx
+
+![LAMP DESIGN](<images/LAMP design.png>)
 
 ### To re-enable the service to start up at boot, you can type:
 
+![LAMP DESIGN](<images/LAMP design.png>)
+
 ####  sudo systemctl enable nginx
+
+![LAMP DESIGN](<images/LAMP design.png>)
 
 # Access the server on the browser
 
@@ -76,17 +90,23 @@
 
 ####  sudo apt install mysql-server
 
+![LAMP DESIGN](<images/LAMP design.png>)
+
 ##### Press Y to confirm installation when prompted, and then hit ENTER.
 
 ##### It is advised that you execute a security script that is pre-installed with MySQL after the installation is complete. This script will lock down access to your database system and remove several unsafe default settings. To initiate the interactive script, execute:
 
 #### sudo mysql_secure_installation
 
+![LAMP DESIGN](<images/LAMP design.png>)
+
 #####   This will ask if you want to configure the VALIDATE PASSWORD PLUGIN.
 
 ### To connect to the MySQL server as the administrative database user root, which is inferred by the use of sudo when running this command. Run:
 
 ####  sudo mysql
+
+![LAMP DESIGN](<images/LAMP design.png>)
 
 ## To secure and remove insecure default setting and lock down the data base syastem, it is recommended the we run a secutity script that come pre install with MySQL.before the scrpit we set a root user, using musql_native_ password as default authentication method. Run:
 
