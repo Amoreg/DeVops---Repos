@@ -74,14 +74,6 @@
 
 ### http://server_domain_or_IP
 
-####  If you do not have a domain name pointed at your server and you do not know your server’s public IP address, you can find it by running the following command: This will print out a few IP addresses. You can try each of them in turn in your web browser.
-
-#####  $ ip addr show eth0 | grep inet | awk '{ print $2; }' | sed 's/\/.*$//'
-
-## - Check which IP address is accessible, as viewed from other locations on the internet:  
- 
-#### $ curl -4 icanhazip.com
-
 
 
 
