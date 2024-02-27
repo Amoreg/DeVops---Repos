@@ -63,11 +63,9 @@
 
 #### sudo ufw status
 
-![LAMP DESIGN](<images/LAMP design.png>)
 
 #### verify the the Ngnix is runing, Run: $ sudo systemctl status nginx
 
-![LAMP DESIGN](<Images/ngnix status.png>)
 
 ### To re-enable the service to start up at boot, you can type:
 
@@ -139,7 +137,6 @@
 
 #### $ sudo mkdir /var/www/your_domain
 
-![Config directory](<Images/directory for conig.png>)
 f
 ###  Next, assign ownership of the directory with the $USER environment variable, which will reference your current system user:
 
