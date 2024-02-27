@@ -88,7 +88,7 @@
 
 ####  sudo apt install mysql-server
 
-![Mysql installed](<Images/Mysqlinstalled.png>)
+![Mysql installed](<Images/Mysql installed.png>)
 
 ##### Press Y to confirm installation when prompted, and then hit ENTER.
 
@@ -96,7 +96,7 @@
 
 #### sudo mysql_secure_installation
 
-![secure Mysql](<Images/secured mysql.png>)
+![secure Mysql](<Images/secured mysql page.png>)
 
 #####   This will ask if you want to configure the VALIDATE PASSWORD PLUGIN.
 
@@ -104,7 +104,7 @@
 
 ####  sudo mysql
 
-![Mysql login page](<images/mysql confirmed page.png>)
+![Mysql login page](<Images/mysql confirmed.png>)
 
 ## To secure and remove insecure default setting and lock down the data base syastem, it is recommended the we run a secutity script that come pre install with MySQL.before the scrpit we set a root user, using musql_native_ password as default authentication method. Run:
 
