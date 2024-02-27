@@ -88,7 +88,7 @@
 
 ####  sudo apt install mysql-server
 
-![Mysql installed](<Images/Mysql installed.png>)
+![Mysql installed](<Images/mysql installed.png>)
 
 ##### Press Y to confirm installation when prompted, and then hit ENTER.
 
