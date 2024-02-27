@@ -47,15 +47,15 @@
 
 #### sudo apt update
 
-![LAMP DESIGN](<images/LAMP design.png>)
+![software update](<images/update.png>)
 
 #### sudo apt install nginx
 
-![LAMP DESIGN](<images/LAMP design.png>)
+![Ngnix installed](<images/Nginx installed.png>)
  
 #### Before testing Nginx, the firewall software needs to be adjusted to allow access to the service. Nginx registers itself as a service with UFW upon installation, making it straightforward to allow Nginx access. If you have the ufw firewall enabled, you will need to allow connections to Nginx. Nginx registers a few different UFW application profiles upon installation. To check which UFW profiles are available, run: sudo ufw app list
 
-![LAMP DESIGN](<images/LAMP design.png>)
+![Http Allowed](<images/allow http on Ec2.png>)
 
 ##### ##### It is recommended that you enable the most restrictive profile that will still allow the traffic you need. Since you haven’t configured SSL for your server in this guide, you will only need to allow regular HTTP traffic on port 80. Enable this by typing: run:  sudo ufw allow 'Nginx HTTP'
 
