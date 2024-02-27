@@ -55,7 +55,7 @@
  
 #### Before testing Nginx, the firewall software needs to be adjusted to allow access to the service. Nginx registers itself as a service with UFW upon installation, making it straightforward to allow Nginx access. If you have the ufw firewall enabled, you will need to allow connections to Nginx. Nginx registers a few different UFW application profiles upon installation. To check which UFW profiles are available, run: sudo ufw app list
 
-![Http Allowed](<images/allow http on Ec2.png>)
+![Http Allowed](<Images/allow http on Ec2.png>)
 
 ##### ##### It is recommended that you enable the most restrictive profile that will still allow the traffic you need. Since you haven’t configured SSL for your server in this guide, you will only need to allow regular HTTP traffic on port 80. Enable this by typing: run:  sudo ufw allow 'Nginx HTTP'
 
@@ -67,21 +67,19 @@
 
 #### verify the the Ngnix is runing, Run: $ sudo systemctl status nginx
 
-![LAMP DESIGN](<images/LAMP design.png>)
+![LAMP DESIGN](<Images/ngnix status.png>)
 
 ### To re-enable the service to start up at boot, you can type:
 
-![LAMP DESIGN](<images/LAMP design.png>)
-
 ####  sudo systemctl enable nginx
-
-![LAMP DESIGN](<images/LAMP design.png>)
 
 # Access the server on the browser
 
 ####  With the new firewall rule added, you can test if the server is up and running by accessing your server’s domain name or public IP address in your web browser.
 
 ### http://server_domain_or_IP
+
+![Webpage](<Images/webpage.png>)
 
 
 # Step 2 — Installing MySQL  #
