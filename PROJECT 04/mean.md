@@ -47,11 +47,11 @@
 
 #### sudo apt update
 
-![software update](<images/update.png>)
+![software update](<Images/update.png>)
 
 #### sudo apt install nginx
 
-![Ngnix installed](<images/Nginx installed.png>)
+![Ngnix installed](<Images/Nginx installed.png>)
  
 #### Before testing Nginx, the firewall software needs to be adjusted to allow access to the service. Nginx registers itself as a service with UFW upon installation, making it straightforward to allow Nginx access. If you have the ufw firewall enabled, you will need to allow connections to Nginx. Nginx registers a few different UFW application profiles upon installation. To check which UFW profiles are available, run: sudo ufw app list
 
