@@ -139,6 +139,8 @@
 
 #### $ sudo mkdir /var/www/your_domain
 
+![Mysql login page](<Images/mysql confirmed.png>)
+
 ###  Next, assign ownership of the directory with the $USER environment variable, which will reference your current system user:
 
 ###  $ sudo chown -R $USER:$USER /var/www/your_domain
@@ -146,6 +148,8 @@
 ### Then, open a new configuration file in Nginx’s sites-available directory using your preferred command-line editor. Here, I use nano:
 
 #### sudo nano /etc/nginx/sites-available/your_domain
+
+![Mysql login page](<Images/mysql confirmed.png>)
 
 
 ##### -- Here’s what each of these directives and location blocks do:
@@ -176,6 +180,8 @@
 
 #### $ sudo nginx -t
 
+![Mysql login page](<Images/mysql confirmed.png>)
+
 ### Reload Nginx to apply the changes:
 
 #### $ sudo systemctl reload nginx
@@ -184,9 +190,13 @@
 
 #### $ nano /var/www/your_domain/index.html
 
+![Mysql login page](<Images/mysql confirmed.png>)
+
 ## Access the site on the brower with the serve public ip address:
 
 ##### http://server_domain_or_IP
+
+![Mysql login page](<Images/mysql confirmed.png>)
 
 
 ## The LEMP stack is now fully configured. 
