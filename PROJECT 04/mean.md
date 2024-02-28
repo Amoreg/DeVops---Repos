@@ -198,6 +198,24 @@ f
 
 ## The LEMP stack is now fully configured. 
 
+# Step 5 –Testing PHP with Nginx
+
+#### LEMP is fully configured and running. To ensure that Nginx can properly transfer.php files to your PHP processor, you can test it.Making a test PHP file in your document root will allow you to accomplish this. With your text editor, create a new file named info.php in the document root:
+
+##### $ nano /var/www/your_domain/info.php
+
+#### The lines that follow can be copied or typed into the new file. This is a legitimate PHP code that will provide you server information:
+
+#### When you are done, hit CTRL+X to save and exit the file, then y and ENTER to confirm.
+
+### Now that you have set up a domain name or public IP address in your Nginx configuration file, you may view this website in your browser by typing in /info.php:
+
+
+
+
+
+
+
 
 
 
