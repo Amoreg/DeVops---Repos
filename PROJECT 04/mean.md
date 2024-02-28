@@ -204,21 +204,19 @@ f
 
 ##### $ nano /var/www/your_domain/info.php
 
-![Mysql login page](<Images/output on browser.png>)
-
 #### The lines that follow can be copied or typed into the new file. This is a legitimate PHP code that will provide you server information:
 
-![Mysql login page](<Images/output on browser.png>)
+![PHP code](<Images/php code.png>)
 
 #### When you are done, hit CTRL+X to save and exit the file, then y and ENTER to confirm.
 
 ### Now that you have set up a domain name or public IP address in your Nginx configuration file, you may view this website in your browser by typing in /info.php:
 
-#### ![Mysql login page](<Images/output on browser.png>)
-
 ## The file you created should be deleted after reviewing the pertinent information about your PHP server on that page, as it contains private data about both your Ubuntu server and PHP environment. That file can be deleted with rm:
 
 ### $ sudo rm /var/www/your_domain/info.php
+
+![Mysql login page](<Images/PHP page.png>)
 
 ##### You can always regenerate this file if you need it later.
 
@@ -241,6 +239,10 @@ f
 #####  The following command creates a new user named example_user, using mysql_native_password as default authentication method. We’re defining this user’s password as password, but you should replace this value with a secure password of your own choosing.
 
 ##### $ CREATE USER 'q9_user'@'%' IDENTIFIED WITH mysql_native_password BY 'password';
+
+#### Now we need to give this user permission over the example_database database:
+
+####  GRANT ALL ON example_database.* TO 'example_user'@'%';
 
 
 
