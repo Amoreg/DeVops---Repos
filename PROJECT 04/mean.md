@@ -204,11 +204,44 @@ f
 
 ##### $ nano /var/www/your_domain/info.php
 
+![Mysql login page](<Images/output on browser.png>)
+
 #### The lines that follow can be copied or typed into the new file. This is a legitimate PHP code that will provide you server information:
+
+![Mysql login page](<Images/output on browser.png>)
 
 #### When you are done, hit CTRL+X to save and exit the file, then y and ENTER to confirm.
 
 ### Now that you have set up a domain name or public IP address in your Nginx configuration file, you may view this website in your browser by typing in /info.php:
+
+#### ![Mysql login page](<Images/output on browser.png>)
+
+## The file you created should be deleted after reviewing the pertinent information about your PHP server on that page, as it contains private data about both your Ubuntu server and PHP environment. That file can be deleted with rm:
+
+### $ sudo rm /var/www/your_domain/info.php
+
+##### You can always regenerate this file if you need it later.
+
+# Step 6. Retrieving data from MySQL database with PHP
+
+#### Create a test table with fake data and query its contents using a PHP script to see if PHP can connect to MySQL and run database queries.Before we can do that, we need to create a test database and a new MySQL user properly configured to access it.At the time of this writing, the native MySQL PHP library mysqlnd doesn’t support caching_sha2_authentication, the default authentication method for MySQL 8. We’ll need to create a new user with the mysql_native_password authentication method in order to be able to connect to the MySQL database from PHP.
+
+#### We’ll create a database named q9ng_database and a user named example_user, but you can replace these names with different values.
+
+#### First, connect to the MySQL console using the root account:
+
+##### sudo mysql
+
+###  To create a new database, run the following command from your MySQL console:
+
+#### $ CREATE DATABASE q9ng_database;
+
+##### Now you can create a new user and grant them full privileges on the custom database you’ve just created.
+
+#####  The following command creates a new user named example_user, using mysql_native_password as default authentication method. We’re defining this user’s password as password, but you should replace this value with a secure password of your own choosing.
+
+##### $ CREATE USER 'q9_user'@'%' IDENTIFIED WITH mysql_native_password BY 'password';
+
 
 
 
