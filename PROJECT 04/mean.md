@@ -252,13 +252,13 @@ f
 
 ###  $ mysql -u example_user -p
 
-![Mysql new user](<Images/PHP page.png>)
+![Mysql new user](<Images/New user.png>)
 
 ### Let's confirm we have access to example_database.
 
 ###  mysql> SHOW DATABASES;
 
-![Mysql Data base](<Images/PHP page.png>)
+![Mysql Data base](<Images/Data base.png>)
 
 ## Next, we’ll create a test table named todo_list with the following statement:
 
@@ -274,7 +274,7 @@ f
 
 # OUtput:
 
-![OUTPUT](<Images/PHP page.png>)
+![OUTPUT](<Images/OUTPUT.png>)
 
 ## we will exit MYSQL. exit
 
@@ -282,16 +282,15 @@ f
 
 ### $ nano /var/www/q9.com/todo_list.php
 
-![PHP script](<Images/PHP page.png>)
+![PHP script](<Images/PHP script.png>)
 
 ### Save and close Nano. :wq then press Enter.
 
 ### Mow lets access the todo_list.php page from our web browser
 
-
 #### http://<Public_domain_or_IP>/todo_list.php
 
-![Webpage output](<Images/PHP page.png>)
+![Webpage output](<Images/web output 02.png>)
 
 
 
