@@ -292,6 +292,12 @@ f
 
 ![Webpage output](<Images/web output 02.png>)
 
+### This indicates that your MySQL server may now connect to and communicate with your PHP environment.
+
+# Conclusion
+
+#### Using Nginx as the web server and MySQL as the database system, we have constructed a versatile foundation in this tutorial for serving PHP websites and apps to your users.
+
 
 
 
