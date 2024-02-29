@@ -254,39 +254,39 @@ f
 
 ![Mysql new user](<Images/New user.png>)
 
-### Let's confirm we have access to example_database.
+#### Let's confirm we have access to example_database.
 
-###  mysql> SHOW DATABASES;
+#####  mysql> SHOW DATABASES;
 
 ![Mysql Data base](<Images/Data base.png>)
 
-## Next, we’ll create a test table named todo_list with the following statement:
+### Next, we’ll create a test table named todo_list with the following statement:
 
-### CREATE TABLE example_database.todo_list (item_id INT AUTO_INCREMENT,content VARCHAR(255),PRIMARY KEY(item_id));
+##### CREATE TABLE example_database.todo_list (item_id INT AUTO_INCREMENT,content VARCHAR(255),PRIMARY KEY(item_id));
 
-## Let's insert a few rows of content in the test table. We will repeat the next command a few times, using different VALUES:
+### Let's insert a few rows of content in the test table. We will repeat the next command a few times, using different VALUES:
 
-### mysql> INSERT INTO example_database.todo_list (content) VALUES ("My first important item");
+##### mysql> INSERT INTO example_database.todo_list (content) VALUES ("My first important item");
 
-## To confirm the data was sucessfully saved on your table, run:
+### To confirm the data was sucessfully saved on your table, run:
 
-### mysql> SELECT * FROM example_database.todo_list;
+##### mysql> SELECT * FROM example_database.todo_list;
 
 # OUtput:
 
 ![OUTPUT](<Images/OUTPUT.png>)
 
-## we will exit MYSQL. exit
+#### we will exit MYSQL. exit
 
-## We will create a PHP script that will connect to MySQL and query the content. let's create a new PHP file in the custom web root directory.
+### We will create a PHP script that will connect to MySQL and query the content. let's create a new PHP file in the custom web root directory.
 
 ### $ nano /var/www/q9.com/todo_list.php
 
 ![PHP script](<Images/PHP script.png>)
 
-### Save and close Nano. :wq then press Enter.
+#### Save and close Nano. :wq then press Enter.
 
-### Mow lets access the todo_list.php page from our web browser
+###  Access the todo_list.php page from the web browser
 
 #### http://<Public_domain_or_IP>/todo_list.php
 
