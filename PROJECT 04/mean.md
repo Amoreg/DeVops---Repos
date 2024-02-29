@@ -228,7 +228,7 @@ f
 
 #### First, connect to the MySQL console using the root account:
 
-##### sudo mysql
+##### sudo mysql -p
 
 ###  To create a new database, run the following command from your MySQL console:
 
@@ -238,30 +238,60 @@ f
 
 #####  The following command creates a new user named example_user, using mysql_native_password as default authentication method. We’re defining this user’s password as password, but you should replace this value with a secure password of your own choosing.
 
-##### $ CREATE USER 'q9_user'@'%' IDENTIFIED WITH mysql_native_password BY 'password';
+##### mysql> $ CREATE USER 'q9_user'@'%' IDENTIFIED WITH mysql_native_password BY 'password';
 
 #### Now we need to give this user permission over the example_database database:
 
-####  GRANT ALL ON example_database.* TO 'example_user'@'%';
+  ### mysql> GRANT ALL ON example_database.* TO 'example_user'@'%';
+
+  ### This will give the example_user user full privileges over the example_database database, while preventing this user from creating or modifying other databases on your server.
+
+## Let's exit the MySQL shell with:    exit
+
+## Now we login to our example_database with the new example_user account created.
+
+###  $ mysql -u example_user -p
+
+![Mysql new user](<Images/PHP page.png>)
+
+### Let's confirm we have access to example_database.
+
+###  mysql> SHOW DATABASES;
+
+![Mysql Data base](<Images/PHP page.png>)
+
+## Next, we’ll create a test table named todo_list with the following statement:
+
+### CREATE TABLE example_database.todo_list (item_id INT AUTO_INCREMENT,content VARCHAR(255),PRIMARY KEY(item_id));
+
+## Let's insert a few rows of content in the test table. We will repeat the next command a few times, using different VALUES:
+
+### mysql> INSERT INTO example_database.todo_list (content) VALUES ("My first important item");
+
+## To confirm the data was sucessfully saved on your table, run:
+
+### mysql> SELECT * FROM example_database.todo_list;
+
+# OUtput:
+
+![OUTPUT](<Images/PHP page.png>)
+
+## we will exit MYSQL. exit
+
+## We will create a PHP script that will connect to MySQL and query the content. let's create a new PHP file in the custom web root directory.
+
+### $ nano /var/www/q9.com/todo_list.php
+
+![PHP script](<Images/PHP page.png>)
+
+### Save and close Nano. :wq then press Enter.
+
+### Mow lets access the todo_list.php page from our web browser
 
 
+#### http://<Public_domain_or_IP>/todo_list.php
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![Webpage output](<Images/PHP page.png>)
 
 
 
