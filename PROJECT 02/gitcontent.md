@@ -1,4 +1,3 @@
-
 # Git
 
 ## Introduction to Git
@@ -35,9 +34,7 @@ Requirements for learning Git
 
 ### Cloning Remote Git Repositories
 
-# Introduction to mackdown syntax
+# Introduction to mackdown 
 
-mayowagit puss 7777
 
-## this is a new word
 
