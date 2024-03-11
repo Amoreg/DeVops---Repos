@@ -6,6 +6,47 @@
 
 #### Shell scripting is a text file with a list of commands that instruct an operating system to perform certain tasks. A shell is an interface that interprets, processes, and executes these commands from the shell script. It can be particularly helpful to automate repetitive tasks, helping to save time and reduce human error.Shell scripting is a form of programming or scripting that involves writing a series of commands for a command-line interpreter, or shell, to execute. A shell is a user interface that allows users to interact with the operating system by entering commands. Shell scripts are essentially text files containing a sequence of such commands that can be executed together as a single program.
 
+# A shell script comprises the following elements –
+
+#### * Shell Keywords – if, else, break etc.
+#### * Shell commands – cd, ls, echo, pwd, touch etc.
+#### * Functions
+#### * Control flow – if..then..else, case and shell loops etc.
+
+# Why do we need shell scripts?
+
+## There are many reasons to write shell scripts:
+
+#### * To avoid repetitive work and automation
+
+#### * System admins use shell scripting for routine backups.
+
+#### * System monitoring
+
+#### * Adding new functionality to the shell etc.
+
+#### * Some Advantages of shell scripts
+
+#### * The command and syntax are exactly the same as those directly entered in the command line, so programmers do not need to switch to entirely different syntax
+
+#### * Writing shell scripts are much quicker
+
+#### * Quick start......
+
+#### * Interactive debugging etc.
+
+#### * Some Disadvantages of shell scripts
+
+#### * Prone to costly errors, a single mistake can change the command which might be harmful.
+
+#### * Slow execution speed
+
+#### * Design flaws within the language syntax or implementation
+
+#### * Not well suited for large and complex task
+
+#### * Provide minimal data structure unlike other scripting languages. etc.
+
 # Key Aspects of Shell Scripting
 
 #### Interactivity: Shells provide an interactive environment where users can enter commands and receive immediate feedback. Shell scripts allow users to automate sequences of these commands.
