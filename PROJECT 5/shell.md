@@ -36,19 +36,21 @@
 
 # 5 types of shells
 
+# What is a shell in Linux?
+ 
+#### * Shell in Linux is a text-based interface wherein users can enter command names, execute programs, and manipulate files such as file handles, file permissions, and directories. Users can access the shell through the terminal window or console, a window displaying a command prompt where users can enter commands
 
 # Capabilities of Shell Script
 
-##  * Shell scripts are incredibly versatile, capable of handling file manipulation, database monitoring, text printing, and more. While the language of shells has conditional operations, looping functions, and command-line arguments, much of the strength of shell programs comes from the ability to call any program through shell scripting. This allows you to design complex programs suited to your needs. 
+####  * Shell scripts are incredibly versatile, capable of handling file manipulation, database monitoring, text printing, and more. While the language of shells has conditional operations, looping functions, and command-line arguments, much of the strength of shell programs comes from the ability to call any program through shell scripting. This allows you to design complex programs suited to your needs. 
 
 # Target Audience
 
-## i. DevOps Engineers: DevOps professionals need to know shell scripting to create and manage automation scripts in CI/CD pipelines, container orchestration, and infrastructure as code (IaC) practices.
+#### i. DevOps Engineers: DevOps professionals need to know shell scripting to create and manage automation scripts in CI/CD pipelines, container orchestration, and infrastructure as code (IaC) practices.
 
-## ii. System administrators need to learn shell scripting in order to make their jobs easier. Shell scripting helps them automate repetitive tasks, control servers, and guarantee that the system is secure and running smoothly.
+#### ii. System administrators need to learn shell scripting in order to make their jobs easier. Shell scripting helps them automate repetitive tasks, control servers, and guarantee that the system is secure and running smoothly.
 
-## iii. QA Engineers can use shell scripting to make testing easier and faster, which means they don't have to do as much testing by hand.
+#### iii. QA Engineers can use shell scripting to make testing easier and faster, which means they don't have to do as much testing by hand.
 
-## iv. IT support and operations teams utilize shell scripting to fix problems, keep an eye on systems, and do regular maintenance to make sure the systems work at their best.
+#### iv. IT support and operations teams utilize shell scripting to fix problems, keep an eye on systems, and do regular maintenance to make sure the systems work at their best.
 
-222
