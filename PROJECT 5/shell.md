@@ -1,5 +1,7 @@
 # The Shell Scripting 
 
+![INTRO PAGE ](<IMAGES/intro.png>)
+
 ## Introduction to shell scripting
 
 # What is shell scripting?
