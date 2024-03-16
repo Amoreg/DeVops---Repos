@@ -99,7 +99,9 @@
 
 ####  1.Variables: are used to store and manipulate data. They are assigned values using the '=' operator, and the value is accessed using $variable_name.
 
-#### 2. Shebang:The shebang at the beginning of a script specifies the path to the shell that should be used to interpret the script. In this case, it indicates that the Bash shell should be used.
+![software update](<Images/update.png>)
+
+#### 2. “#!” is an operator called shebang which directs the script to the interpreter location. So, if we use”#! /bin/sh” the script gets directed to the bourne-shell..
 
 #  #!/bin/bash
 
@@ -114,3 +116,23 @@
 #### 5. Control Flow
 
 ####  a. Conditionals: Conditional statements allow you to execute different blocks of code based on specified conditions. Square brackets are used for testing conditions.
+
+![software update](<Images/update.png>)
+
+#### b.  Loops: Loops allow you to repeat a block of code. for loops iterate over a list of items, while while loops continue executing as long as a specified condition is true.
+
+![software update](<Images/update.png>)
+
+### 6. Command Subsitution: This feature is useful when you want to capture the result of a command and use it as part of another command or in a variable assignment.
+
+![software update](<Images/update.png>)
+
+### 7.Input and Output: n Bash, input and output are handled through various mechanisms, including command-line arguments, standard input (stdin), standard output (stdout), and standard error (stderr)
+
+![software update](<Images/update.png>)
+
+### 8.Functions: Functions allow you to encapsulate a block of code that can be reused. Functions are defined using the function_name() { ... } syntax.
+
+###  function_name() { # commands }
+
+![software update](<Images/update.png>)
