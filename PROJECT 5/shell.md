@@ -99,6 +99,14 @@
 
 # Getting Started With Shell Scripting
 
+# ECHO COMMAND
+
+### The echo command is a way to communicate with your Linux terminal. It allows you to send text, variables, and special characters to the standard output, which is usually the terminal screen.
+
+![Echo command input](<IMAGES/echo command input.png>)
+
+![Echo command output](<IMAGES/echo command output.png>)
+
 ####  1.Variables: are used to store and manipulate data. They are assigned values using the '=' operator, and the value is accessed using $variable_name.
 
 ![Variables](<IMAGES/variable.png>)
