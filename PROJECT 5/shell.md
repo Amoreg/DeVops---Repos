@@ -119,7 +119,7 @@
 
 ####  a. Conditionals: Conditional statements allow you to execute different blocks of code based on specified conditions. Square brackets are used for testing conditions.
 
-![software update](<Images/update.png>)
+![Conditional statement](<IMAGES/Conditional st.png>)
 
 #### b.  Loops: Loops allow you to repeat a block of code. for loops iterate over a list of items, while while loops continue executing as long as a specified condition is true.
 
