@@ -103,6 +103,10 @@
 
 ![Variables](<IMAGES/variable.png>)
 
+![Variables](<IMAGES/variable output.png>)
+
+![Variables](<IMAGES/variable input.png>)
+
 #### 2. “#!” is an operator called shebang which directs the script to the interpreter location. So, if we use”#! /bin/sh” the script gets directed to the bourne-shell..
 
 #  #!/bin/bash
@@ -120,6 +124,10 @@
 ####  a. Conditionals: Conditional statements allow you to execute different blocks of code based on specified conditions. Square brackets are used for testing conditions.
 
 ![Conditional statement](<IMAGES/Conditional st.png>)
+
+![Conditional statement](<IMAGES/conditional st1 st.png>)
+
+![Conditional statement](<IMAGES/cond output.png>)
 
 #### b.  Loops: Loops allow you to repeat a block of code. for loops iterate over a list of items, while while loops continue executing as long as a specified condition is true.
 
