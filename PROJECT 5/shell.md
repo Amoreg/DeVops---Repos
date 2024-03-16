@@ -148,6 +148,7 @@
 ### "else if" is a conditional statement that allows you to specify multiple conditions to be evaluated in a sequence. It is used when you have more than two possible outcomes for a decision.
 
 ![Else-if ](<IMAGES/else-if.png>)
+
 ![Else-if ](<IMAGES/else-if output.png>)
 
 # IF-ELSE STATEMENT
