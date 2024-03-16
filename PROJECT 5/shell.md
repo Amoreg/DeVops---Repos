@@ -149,7 +149,7 @@
 
 ![Else-if ](<IMAGES/else-if.png>)
 
-![Else-if ](<IMAGES/else-if output.png>)
+![Else-if ](<IMAGES/else-if outpot.png>)
 
 # IF-ELSE STATEMENT
 
