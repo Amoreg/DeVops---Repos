@@ -155,7 +155,9 @@
 
 ### The if-else statement is used to execute both the true part and the false part of a given condition. If the condition is true, the if block code is executed and if the condition is false, the else block code is executed.
 
-![software update](<Images/update.png>)
+![if-else ](<IMAGES/IF-ELSE.png>)
+
+![Else-if ](<IMAGES/if-else output.png>)
 
 #### b.  Loops: Loops allow you to repeat a block of code. for loops iterate over a list of items, while while loops continue executing as long as a specified condition is true.
 
