@@ -77,6 +77,8 @@
 
 # 5 types of shells
 
+![Types of Shell](<IMAGES/Tshell.png>)
+
 # What is a shell in Linux?
  
 #### * Shell in Linux is a text-based interface wherein users can enter command names, execute programs, and manipulate files such as file handles, file permissions, and directories. Users can access the shell through the terminal window or console, a window displaying a command prompt where users can enter commands
