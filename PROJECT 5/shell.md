@@ -125,7 +125,7 @@
 
 ![Conditional statement](<IMAGES/Conditional st.png>)
 
-![Conditional statement](<IMAGES/conditional st1 st.png>)
+![Conditional statement](<IMAGES/conditional st1.png>)
 
 ![Conditional statement](<IMAGES/cond output.png>)
 
