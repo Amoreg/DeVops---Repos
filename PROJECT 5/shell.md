@@ -2,13 +2,13 @@
 
 ![INTRO PAGE ](<IMAGES/intro.png>)
 
-## Introduction to shell scripting
+# Introduction to shell scripting
 
-# What is shell scripting?
+## What is shell scripting?
 
 #### Shell scripting is a text file with a list of commands that instruct an operating system to perform certain tasks. A shell is an interface that interprets, processes, and executes these commands from the shell script. It can be particularly helpful to automate repetitive tasks, helping to save time and reduce human error.Shell scripting is a form of programming or scripting that involves writing a series of commands for a command-line interpreter, or shell, to execute. A shell is a user interface that allows users to interact with the operating system by entering commands. Shell scripts are essentially text files containing a sequence of such commands that can be executed together as a single program.
 
-# A shell script comprises the following elements –
+## A shell script comprises the following elements –
 
 #### * Shell Keywords – if, else, break etc.
 #### * Shell commands – cd, ls, echo, pwd, touch etc.
