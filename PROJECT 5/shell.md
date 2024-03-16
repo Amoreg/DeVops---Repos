@@ -99,7 +99,7 @@
 
 ####  1.Variables: are used to store and manipulate data. They are assigned values using the '=' operator, and the value is accessed using $variable_name.
 
-![software update](<Images/update.png>)
+![Variables](<IMAGES/variable.png>)
 
 #### 2. “#!” is an operator called shebang which directs the script to the interpreter location. So, if we use”#! /bin/sh” the script gets directed to the bourne-shell..
 
