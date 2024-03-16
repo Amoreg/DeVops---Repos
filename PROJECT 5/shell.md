@@ -103,9 +103,9 @@
 
 ![Variables](<IMAGES/variable.png>)
 
-![Variables](<IMAGES/variable output.png>)
-
 ![Variables](<IMAGES/variable input.png>)
+
+![Variables](<IMAGES/variable output.png>)
 
 #### 2. “#!” is an operator called shebang which directs the script to the interpreter location. So, if we use”#! /bin/sh” the script gets directed to the bourne-shell..
 
