@@ -220,5 +220,29 @@ done
 
 ![FOS output](<IMAGES/FOS output.png>)
 
+# Working With Numbers and Calculations
+
+#### BC command is used for command line calculator. It is similar to basic calculator by using which we can do basic mathematical calculations,Arithmetic operations are the most basic in any kind of programming language. Linux or Unix operating system provides the bc command and expr command for doing arithmetic calculations. You can use these commands in bash or shell script also for evaluating arithmetic expressions. 
+
+
+
+## Options: 
+
+#### -h, {- -help } : Print the usage and exit 
+
+#### -i, {- -interactive } : Force interactive mode 
+
+#### -l, {- -mathlib } : Define the standard math library 
+
+#### -w, {- -warn } : Give warnings for extensions to POSIX bc 
+
+#### -s, {- -standard } : Process exactly the POSIX bc language 
+
+#### -q, {- -quiet } : Do not print the normal GNU bc welcome 
+
+#### -v, {- -version } : Print the version number and copyright and quit 
+
+
+
 
 
