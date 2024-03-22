@@ -186,3 +186,14 @@ do
     echo $i
 done
 
+# Direct Manipulation and Navigation
+
+####  Navigation is based on the concept of paths. These paths specify what directories to traverse to reach a particular subdirectory or file. The path basically says: go here, go here, go here, and you'll find this. There are two types of paths: Absolute paths and relative paths
+
+![DMN SCRIPT](<IMAGES/script.png>)
+
+![DMD EDITOR](<IMAGES/DMN editor.png>)
+
+![dmn output](<IMAGES/DMN output.png>)
+
+![software update](<Images/update.png>)
