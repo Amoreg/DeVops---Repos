@@ -242,6 +242,12 @@ done
 
 #### -v, {- -version } : Print the version number and copyright and quit 
 
+![CLN](<IMAGES/CL script.png>)
+
+![CLN](<IMAGES/nano CL script.png>)
+
+![CLN](<IMAGES/CL output.png>)
+
 
 
 
