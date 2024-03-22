@@ -194,6 +194,31 @@ done
 
 ![DMD EDITOR](<IMAGES/DMN editor.png>)
 
-![dmn output](<IMAGES/DMN output.png>)
+![DMN output](<IMAGES/DMN output.png>)
 
-![software update](<Images/update.png>)
+# File Operation and Sorting
+
+#### The SORT command in the Linux operating system is used for sorting. It can be done either for files or for input on a command line given by the user. The sort command by default sorts files under the assumption that their data is ASCII. It sorts the files line by line.
+
+#### The SORT command follows a variety of features for the output. The first is that the alphabetical lines will follow the lines with numbers. Lines containing lowercase letters will appear before lines containing the same character in uppercase. The SORT command has several options for sorting in various ways. Some of them include:
+
+#### -k: This option sorts the file based on the key number, which is stated in the option after k. For example, the “-k2” option would sort the file using the second column of the file.
+#### -n: This option sorts the file numerically since the default behavior is ASCII based.
+#### -b: This option ignores the leading blanks in the file while sorting.
+
+#### -d: This option sorts according to the dictionary order.
+
+#### -r: This option does a reverse sort or reverses the sorted result.
+
+#### -m: This option merges the already sorted files given as input.
+
+#### -u: This option removes duplicates in the file and then sorts it.
+
+![FOS script](<IMAGES/FOS script.png>)
+
+![Script editor](<IMAGES/script editor.png>)
+
+![FOS output](<IMAGES/FOS output.png>)
+
+
+
