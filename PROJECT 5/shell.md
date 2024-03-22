@@ -242,6 +242,8 @@ done
 
 #### -v, {- -version } : Print the version number and copyright and quit 
 
+![STY](<IMAGES/STY output.png>)
+
 
 
 
