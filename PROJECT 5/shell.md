@@ -163,7 +163,7 @@
 
 #### b.  Loops: Loops allow you to repeat a block of code. for loops iterate over a list of items, while while loops continue executing as long as a specified condition is true.
 
-![software update](<Images/update.png>)
+![Loop](<IMAGES/loop.png>)
 
 ### 6. Command Subsitution: This feature is useful when you want to capture the result of a command and use it as part of another command or in a variable assignment.
 
