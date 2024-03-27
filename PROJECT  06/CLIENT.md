@@ -26,6 +26,8 @@
 
 # Three-tier Client Server Architecture
 
+![CLIENT-SERVER ](<IMAGES/client-server 03.png>)
+
 #### * A client that interacts with the user
 
 #### * An application server that contains the business logic of the application
