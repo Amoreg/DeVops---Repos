@@ -26,7 +26,7 @@
 
 # Three-tier Client Server Architecture
 
-![CLIENT-SERVER ](<IMAGES/client-server03.png>)
+![CLIENT-SERVER03 ](<IMAGES/client-server 03.png>)
 
 #### * A client that interacts with the user
 
