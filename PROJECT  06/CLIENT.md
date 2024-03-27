@@ -1,6 +1,6 @@
 # Understanding Client Server Architecture With MySQL As RDBMS
 
-![CLIENT-SERVER ](<IMAGES/CLIENT-SERVER.png>)
+![CLIENT-SERVER ](<IMAGES/CLIENT-SERVER004.png>)
 
 # What is Client Server Architecture?
 
