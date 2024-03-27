@@ -36,11 +36,11 @@
 
 ## Client:
 
-#### The client is the end-user device or application that initiates requests to the server. Clients can be various types, such as desktop applications, web browsers, mobile apps, or other devices that need access to data stored in the MySQL database.
+#### A client-server network is the medium through which clients access resources and services from a central computer, via either a local area network (LAN) or a wide-area network (WAN), such as the Internet.The client is the end-user device or application that initiates requests to the server. Clients can be various types, such as desktop applications, web browsers, mobile apps, or other devices that need access to data stored in the MySQL database.
 
 ## Server:
 
-#### The server hosts the MySQL database and handles client requests. It is responsible for processing queries, managing data, and responding to client requests for information.
+#### A server is a computer program or device that provides a service to another computer program and its user, also known as the client. In a data center, the physical computer that a server program runs on is also frequently referred to as a server. That machine might be a dedicated server or it might be used for other purposes.
 
 # MySQL Database:
 
@@ -54,7 +54,7 @@
 
 ## Server Processing:
 
- #### The server receives the client's request and processes it. For example, if the request is a SELECT query, the server fetches the requested data from the MySQL database. If it's an INSERT or UPDATE, the server modifies the data accordingly.
+ #### A server process is one that is typically waiting for work. When work arrives, BTS restarts the process, which retrieves any state data that it has previously saved. Typically, the client invokes the server with a named input event, and sends it some input data in a data-container.The server receives the client's request and processes it. For example, if the request is a SELECT query, the server fetches the requested data from the MySQL database. If it's an INSERT or UPDATE, the server modifies the data accordingly.
 
 ## Database Interaction:
 
