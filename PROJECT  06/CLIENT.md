@@ -80,15 +80,15 @@
 
 # Why is a Client Server Architecture With MySQL Important?
 
-### 1.Scalability: Multiple clients can connect to the server simultaneously, making it scalable. Additional servers can be added to handle increased demand, and load balancing can be implemented for optimal performance.
+#### 1.Scalability: Multiple clients can connect to the server simultaneously, making it scalable. Additional servers can be added to handle increased demand, and load balancing can be implemented for optimal performance.
 
-### 2.Security: Security measures are implemented at both the client and server levels. Clients authenticate themselves to the server, and the server enforces access controls to protect the data stored in the MySQL database.
+#### 2.Security: Security measures are implemented at both the client and server levels. Clients authenticate themselves to the server, and the server enforces access controls to protect the data stored in the MySQL database.
 
-### 3. Concurrent Access: Multiple clients can interact with the server concurrently. The server manages concurrency to ensure data consistency and integrity.
+#### 3. Concurrent Access: Multiple clients can interact with the server concurrently. The server manages concurrency to ensure data consistency and integrity.
 
-### 4. Centralized Data Management: MySQL provides a centralized and organized way to manage data. The server is responsible for centralized data storage, retrieval, and manipulation.
+#### 4. Centralized Data Management: MySQL provides a centralized and organized way to manage data. The server is responsible for centralized data storage, retrieval, and manipulation.
 
-### 5. Data Consistency: Because the server manages all data operations, data consistency is maintained. All clients access the same data, ensuring a consistent view of information.
+#### 5. Data Consistency: Because the server manages all data operations, data consistency is maintained. All clients access the same data, ensuring a consistent view of information.
 
 # A Quick example of client serve communication is shown below:
 
@@ -98,11 +98,11 @@
 
 # Implementing MySQL as a Client Server Architecture Using MySQL DAtabase Management System (DBMS)
 
-### Step 1: Launch 2 EC2 Instances on AWS i. Each instance should be named
+#### Step 1: Launch 2 EC2 Instances on AWS i. Each instance should be named
 
 ![INTRO PAGE ](<IMAGES/intro.png>)
 
-### ii. Open 2 terminals and ssh into both "mysql server" "mysql client"
+#### ii. Open 2 terminals and ssh into both "mysql server" "mysql client"
 
 ### Step 2: Updating and Upgrading Package Lists and Apt Repositories On both mysql server and mysql client update and upgrade package lists
 
