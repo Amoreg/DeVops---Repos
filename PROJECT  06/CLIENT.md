@@ -102,9 +102,43 @@
 
 ![INTRO PAGE ](<IMAGES/intro.png>)
 
-#### ii. Open 2 terminals and ssh into both "mysql server" "mysql client"
+####  ii. Open 2 terminals and ssh into both "mysql server" "mysql client"
 
 ### Step 2: Updating and Upgrading Package Lists and Apt Repositories On both mysql server and mysql client update and upgrade package lists
+
+![INTRO PAGE ](<IMAGES/intro.png>)
+
+### Note: The command above should be executed for mysql server and mysql client instances
+
+## Step 3: Installing MySQL Server Software
+
+![INTRO PAGE ](<IMAGES/intro.png>)
+
+### To start mysql service
+
+![INTRO PAGE ](<IMAGES/intro.png>)
+
+### Check is mysql is active and running
+
+![INTRO PAGE ](<IMAGES/intro.png>)
+
+![INTRO PAGE ](<IMAGES/intro.png>)
+
+## Step 4: Installing MySQL Client Sofware
+
+### On mysql client instance install MySQL Client software.
+
+#### sudo apt install mysql-client -y
+
+![INTRO PAGE ](<IMAGES/intro.png>)
+
+## Step 5: Allowing Access To MySQL Server for MySQl Client
+
+### By default, both of your EC2 virtual servers are located in the same local virtual network, so they can communicate to each other using local IP addresses. Or, you can add them to the same subnets.
+
+### Use mysql server's local IP address to connect from mysql client. MySQL server uses TCP port 3306 by default, so you will have to open it by creating a new entry in ‘Inbound rules’ in ‘mysql server’ Security Groups. For extra security, do not allow all IP addresses to reach your ‘mysql server’ – allow access only to the specific local IP address of your ‘mysql client’.
+
+![INTRO PAGE ](<IMAGES/intro.png>)
 
 
 
