@@ -68,6 +68,45 @@
 
  #### The server sends the results of the query or the status of the operation back to the client. This could be the requested data, a success message, or an error message, depending on the nature of the client's request.
 
+ # Clent Server Achitecture with Mysql
+
+ #### MySQL is a relational database management system (RDBMS) developed by Oracle that is based on structured query language (SQL). Asw a devops engineer, a knowledge of a RDMS such as MySQL is needed.
+
+#### Now that we have an understanding of a client server architecture, a client server architecture with mysql means using mysql as a client as well as a server.
+
+#### In some of our previous projects like LAMP and LEMP stack, we implemented, a client server architecture wherby our webserver is a client such that it sends a request to our database server to get a response (data). The architecture is shown inthe image below
+
+![INTRO PAGE ](<IMAGES/intro.png>)
+
+# Why is a Client Server Architecture With MySQL Important?
+
+### 1.Scalability: Multiple clients can connect to the server simultaneously, making it scalable. Additional servers can be added to handle increased demand, and load balancing can be implemented for optimal performance.
+
+### 2.Security: Security measures are implemented at both the client and server levels. Clients authenticate themselves to the server, and the server enforces access controls to protect the data stored in the MySQL database.
+
+### 3. Concurrent Access: Multiple clients can interact with the server concurrently. The server manages concurrency to ensure data consistency and integrity.
+
+### 4. Centralized Data Management: MySQL provides a centralized and organized way to manage data. The server is responsible for centralized data storage, retrieval, and manipulation.
+
+### 5. Data Consistency: Because the server manages all data operations, data consistency is maintained. All clients access the same data, ensuring a consistent view of information.
+
+# A Quick example of client serve communication is shown below:
+
+#### $ curl -iv www.amoreg.org
+
+![INTRO PAGE ](<IMAGES/intro.png>)
+
+# Implementing MySQL as a Client Server Architecture Using MySQL DAtabase Management System (DBMS)
+
+### Step 1: Launch 2 EC2 Instances on AWS i. Each instance should be named
+
+![INTRO PAGE ](<IMAGES/intro.png>)
+
+### ii. Open 2 terminals and ssh into both "mysql server" "mysql client"
+
+### Step 2: Updating and Upgrading Package Lists and Apt Repositories On both mysql server and mysql client update and upgrade package lists
+
+
 
 
 
