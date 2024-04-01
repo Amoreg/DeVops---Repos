@@ -166,13 +166,13 @@
 
 ##### sudo systemctl restart mysql
 
-![INTRO PAGE ](<IMAGES/intro.png>)
+![INTRO PAGE ](<IMAGES/Mysql restart.png>)
 
 ## Step 7: Configure MySQL server to Allow Connections From Remote Hosts. i. Edit mysql server configuration file
 
-##### sudo nano /etc/mysql/mysql.conf.d/mysqld.cnf
+![nano page ](<IMAGES/\nano page.png>)
 
-![INTRO PAGE ](<IMAGES/intro.png>)
+![INTRO PAGE ](<IMAGES/nano output.png>)
 
 
 
