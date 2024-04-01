@@ -170,7 +170,7 @@
 
 ## Step 7: Configure MySQL server to Allow Connections From Remote Hosts. i. Edit mysql server configuration file
 
-![nano page ](<IMAGES/\Nano input.png>)
+![nano page ](<IMAGES/Nano input.png>)
 
 ![INTRO PAGE ](<IMAGES/Nano output.png>)
 
