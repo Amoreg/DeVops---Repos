@@ -130,7 +130,7 @@
 
 #### sudo apt install mysql-client -y
 
-![INTRO PAGE ](<IMAGES/client server 03.png>)
+![INTRO PAGE ](<IMAGES/client -y.png>)
 
 ## Step 5: Allowing Access To MySQL Server for MySQl Client
 
@@ -170,9 +170,9 @@
 
 ## Step 7: Configure MySQL server to Allow Connections From Remote Hosts. i. Edit mysql server configuration file
 
-![nano page ](<IMAGES/\nano page.png>)
+![nano page ](<IMAGES/\Nano page.png>)
 
-![INTRO PAGE ](<IMAGES/nano output.png>)
+![INTRO PAGE ](<IMAGES/Nano output.png>)
 
 
 
