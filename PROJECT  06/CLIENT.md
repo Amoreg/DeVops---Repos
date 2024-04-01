@@ -120,9 +120,9 @@
 
 ### Check is mysql is active and running.
 
-![INTRO PAGE ](<IMAGES/intro.png>)
+![INTRO PAGE ](<IMAGES/Mysql status.png>)
 
-![INTRO PAGE ](<IMAGES/intro.png>)
+![INTRO PAGE ](<IMAGES/status output.png>)
 
 ## Step 4: Installing MySQL Client Sofware
 
