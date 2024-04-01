@@ -100,25 +100,25 @@
 
 #### Step 1: Launch 2 EC2 Instances on AWS i. Each instance should be named
 
-![INTRO PAGE ](<IMAGES/sudo update.png>)
+![INTRO PAGE ](<IMAGES/2 ec2.png>)
 
 ####  ii. Open 2 terminals and ssh into both "mysql server" "mysql client"
 
 ### Step 2: Updating and Upgrading Package Lists and Apt Repositories On both mysql server and mysql client update and upgrade package lists
 
-![INTRO PAGE ](<IMAGES/Mysql install.png>)
+![INTRO PAGE ](<IMAGES/sudo update.png>)
 
 ### Note: The command above should be executed for mysql server and mysql client instances
 
 ## Step 3: Installing MySQL Server Software
 
-![INTRO PAGE ](<IMAGES/Mysql start.png>)
+![INTRO PAGE ](<IMAGES/Mysql install.png>)
 
 ### To start mysql service
 
-![INTRO PAGE ](<IMAGES/intro.png>)
+![INTRO PAGE ](<IMAGES/Mysql start.png>)
 
-### Check is mysql is active and running
+### Check is mysql is active and running.
 
 ![INTRO PAGE ](<IMAGES/intro.png>)
 
