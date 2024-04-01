@@ -130,7 +130,7 @@
 
 #### sudo apt install mysql-client -y
 
-![INTRO PAGE ](<IMAGES/intro.png>)
+![INTRO PAGE ](<IMAGES/client server 03.png>)
 
 ## Step 5: Allowing Access To MySQL Server for MySQl Client
 
@@ -138,7 +138,7 @@
 
 #### Use mysql server's local IP address to connect from mysql client. MySQL server uses TCP port 3306 by default, so you will have to open it by creating a new entry in ‘Inbound rules’ in ‘mysql server’ Security Groups. For extra security, do not allow all IP addresses to reach your ‘mysql server’ – allow access only to the specific local IP address of your ‘mysql client’.
 
-![INTRO PAGE ](<IMAGES/intro.png>)
+![INTRO PAGE ](<IMAGES/AWS servers output.png>)
 
 ## Step 6: Create A New User and Database On MySQL Server In order for mysql client to be able to send request to mysql server, we need to create a new user for mysql client and a database.
 
