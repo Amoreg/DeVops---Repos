@@ -94,13 +94,13 @@
 
 #### $ curl -iv www.amoreg.org
 
-![INTRO PAGE ](<IMAGES/intro.png>)
+![output ](<IMAGES/server output.png>)
 
 # Implementing MySQL as a Client Server Architecture Using MySQL DAtabase Management System (DBMS)
 
 #### Step 1: Launch 2 EC2 Instances on AWS i. Each instance should be named
 
-![INTRO PAGE ](<IMAGES/intro.png>)
+![INTRO PAGE ](<IMAGES/2 ec2.png>)
 
 ####  ii. Open 2 terminals and ssh into both "mysql server" "mysql client"
 
