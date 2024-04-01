@@ -76,7 +76,7 @@
 
 #### In some of our previous projects like LAMP and LEMP stack, we implemented, a client server architecture wherby our webserver is a client such that it sends a request to our database server to get a response (data). The architecture is shown inthe image below
 
-![INTRO PAGE ](<IMAGES/intro.png>)
+![INTRO PAGE ](<IMAGES/Intro.png>)
 
 # Why is a Client Server Architecture With MySQL Important?
 
