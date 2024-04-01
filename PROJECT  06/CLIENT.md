@@ -174,6 +174,21 @@
 
 ![INTRO PAGE ](<IMAGES/Nano output.png>)
 
+### * In the mysqlserver configuration file, replace 127.0.0.1’ to ‘0.0.0.0, then save and close the file
+
+# Step 9: Connecting To Mysql Server From Mysql Client i. Connect to mysql server from mysql client
+
+![INTRO PAGE ](<IMAGES/Password.png>)
+
+####  Check that you have successfully connected to a remote MySQL server and can perform SQL queries
+
+####  Client connection to mysql
+
+![INTRO PAGE ](<IMAGES/OUTPUT 007.png>)
+
+
+
+
 
 
 
