@@ -186,6 +186,10 @@
 
 ![INTRO PAGE ](<IMAGES/OUTPUT 007.png>)
 
+#CONCLUSION
+
+### We have successfully completed the procedures necessary to install MySQL on two Ubuntu servers (the server and the client), protect the MySQL instances, create users, and modify the MySQL configuration file to enable remote connections. Additionally, we changed the security groups on both instances to permit communication between the client and MySQL server. Using the MySQL server's private IP address, we were able to log into the MySQL server from the client server.
+
 
 
 
