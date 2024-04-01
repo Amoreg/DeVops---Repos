@@ -106,7 +106,7 @@
 
 ### Step 2: Updating and Upgrading Package Lists and Apt Repositories On both mysql server and mysql client update and upgrade package lists
 
-![INTRO PAGE ](<IMAGES/iMysql install.png>)
+![INTRO PAGE ](<IMAGES/Mysql install.png>)
 
 ### Note: The command above should be executed for mysql server and mysql client instances
 
