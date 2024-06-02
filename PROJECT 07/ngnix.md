@@ -68,6 +68,15 @@
 ![NIGX](<IMAGES/N1B.png>)
 
 
+![NIGX](<IMAGES/N3.png>)
+
+######       C. Confirm Apache has been successfully installed
+
+![NIGX](<IMAGES/N4.png>)
+
+
+
+
 
 
 
