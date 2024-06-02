@@ -104,7 +104,7 @@ ii. Add a new listen directive
 
 ######        ii. switch to nano editor and past the html file
 
-![NIGX](<IMAGES/N6.png>)
+![NIGX](<IMAGES/N7.png>)
 
 
 
