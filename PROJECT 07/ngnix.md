@@ -17,7 +17,7 @@
 
 ####   * The image above show multiple client making request to a load balancer. The load balancer, make a request to a web server and gets a response then give the response back to the client. If the web server not available due to certain reasons which can either be that the server is down or cannot or cannot handle more requests, the load balancer will direct the client response to another server and give response back to the client.
 
-## key features and benefits of load balancers
+###  KEY FEATURES AND BENEFITS OF LOAD BALANCERS
 
 #####  1. Distribution of Traffic:
 
@@ -161,6 +161,8 @@ ii. Add a new listen directive
 ######     vii. Paste load balancer public Ip address on your web browser to see the content of web server 1 and 2
 
 ![NIGX](<IMAGES/N11.png>)
+
+![NIGX](<IMAGES/N1Q.png>)
 
 
 
