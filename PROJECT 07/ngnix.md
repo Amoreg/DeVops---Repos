@@ -84,7 +84,15 @@ ii. Add a new listen directive
 
 ######    ii. Add a new listen directive
 
-![NIGX](<IMAGES/N4.png>)
+![NIGX](<IMAGES/N5.png>)
+
+######     iii. Add a new virtualhost statement since a new listen directive has been added
+
+![NIGX](<IMAGES/N1D.png>)
+
+![NIGX](<IMAGES/N6.png>)
+
+
 
 
 
