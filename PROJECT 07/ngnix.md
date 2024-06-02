@@ -63,6 +63,12 @@
 
 ![NIGX](<IMAGES/N1A.png>)
 
+######      B. Install Apache
+
+![NIGX](<IMAGES/N1B.png>)
+
+
+
 
 
 
