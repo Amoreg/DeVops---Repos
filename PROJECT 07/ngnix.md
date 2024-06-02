@@ -92,6 +92,33 @@ ii. Add a new listen directive
 
 ![NIGX](<IMAGES/N6.png>)
 
+######      iv. Reload Apache
+
+######          sudo systemctl reload apache2
+
+#####      STEP 5: Configure Apache to Show Names Of Both Webservers
+
+######        i. open a new index.html file
+
+![NIGX](<IMAGES/N1D.png>)
+
+######        ii. switch to nano editor and past the html file
+
+![NIGX](<IMAGES/N6.png>)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
