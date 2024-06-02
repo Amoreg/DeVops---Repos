@@ -53,7 +53,15 @@
 
 ######      B. Edit inbound rules on open port 8000 for our both webserver_1 and webserver_2 and port 80 for our load balancer!
 
+######      C. Allow traffic from anywhere on the open ports
+
 ![NIGX](<IMAGES/N2.png>)
+
+#####  STEP 3: Install Apache Webserver i. Open 2 termianls and ssh into webserver 1 and webserver 2
+
+######       A. Update and upgrade package lists
+
+![NIGX](<IMAGES/N1A.png>)
 
 
 
