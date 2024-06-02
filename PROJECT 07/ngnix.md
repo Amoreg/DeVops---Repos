@@ -100,11 +100,31 @@ ii. Add a new listen directive
 
 ######        i. open a new index.html file
 
-![NIGX](<IMAGES/N1D.png>)
+![NIGX](<IMAGES/N1E.png>)
 
 ######        ii. switch to nano editor and past the html file
 
 ![NIGX](<IMAGES/N7.png>)
+
+######         iii. Change file ownership of index.html file
+
+![NIGX](<IMAGES/N1F.png>)
+
+######          iv. Overriding the default html file of Apache Webserver
+
+![NIGX](<IMAGES/N1G.png>)
+
+######           v. Restart the webserver to load the new configuration
+
+![NIGX](<IMAGES/N1H.png>)
+
+
+
+
+
+
+
+
 
 
 
