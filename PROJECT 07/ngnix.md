@@ -39,6 +39,20 @@
 
 #####   Load balancers can handle SSL/TLS termination, offloading the encryption and decryption process from the application servers. This helps improve performance and simplifies the management of SSL certificates.
 
+####  Implementation of Load Balancers With Nginx
+
+##### STEP 1:  Provisioning EC2 Instances We will provision 3 EC2 instance, two of these will be our webserver and one will be a load balancer
+
+######      A. Launch 2 EC2 instances and name each "webserver_1" and "webserver_2"
+
+######      B. Launch another EC2 instance and name it "load balancer"
+
+#####  STEP 2: Open New Security Group For Both Webservers and load balancer
+
+######      A. For the webservers and load balancer, go to the security groups
+
+######      B. Edit inbound rules on open port 8000 for our both webserver_1 and webserver_2 and port 80 for our load balancer!
+
 
 
 
