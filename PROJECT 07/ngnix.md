@@ -162,7 +162,7 @@ ii. Add a new listen directive
 
 ![NIGX](<IMAGES/N11.png>)
 
-![NIGX](<IMAGES/N1Q.png>)
+![NIGX](<IMAGES/M1Q.png>)
 
 
 
