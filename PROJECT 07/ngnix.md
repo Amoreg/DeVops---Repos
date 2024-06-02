@@ -11,7 +11,7 @@
 
 # What is Load Balancer?
 
-#### A load balancer is a network device or software application that efficiently distributes incoming network traffic across multiple servers. The primary purpose of a load balancer is to enhance the availability and reliability of applications by ensuring that no single server is overwhelmed with too much traffic, thus distributing the load across multiple servers.
+#### Loadbalancing is a useful mechanism to distribute incoming traffic around several capable Virtual Private servers.By apportioning the processing mechanism to several machines, redundancy is provided to the application -- ensuring fault tolerance and heightened stability. The Round Robin algorithm for load balancing sends visitors to one of a set of IPs. At its most basic level Round Robin, which is fairly easy to implement, distributes server load without implementing considering more nuanced factors like server response time and the visitors’ geographic region.A load balancer is a network device or software application that efficiently distributes incoming network traffic across multiple servers. The primary purpose of a load balancer is to enhance the availability and reliability of applications by ensuring that no single server is overwhelmed with too much traffic, thus distributing the load across multiple servers.
 
 ![NIGX](<IMAGES/N1.png>)
 
@@ -121,6 +121,40 @@ ii. Add a new listen directive
 ###  Note: This step should be done for both webserver1 and webserver 2
 
 ![NIGX](<IMAGES/N8.png>)
+
+#####    STEP 6: Install and Configure Nginx As A Load Balancer For Both WebServers
+
+#####    In the step, we will configure nginx as a load balancer for webserver 1 and 2
+
+######     i. Update package lists and instal nginx
+
+![NIGX](<IMAGES/N1I.png>)
+
+######     ii. Verify that Nginx is successfully installed
+
+![NIGX](<IMAGES/N1J.png>)
+
+![NIGX](<IMAGES/N9.png>)
+
+######     iii. Edit Nginx load balancer configuration file
+
+![NIGX](<IMAGES/N1K.png>)
+
+######       iv. Paste the configuration file below to configure nginx to act like a load balancer. A screenshot of an example config file is shown below: Make sure you edit the file and provide necessary information like your server IP address etc.
+
+######            upstream backend_servers {
+
+![NIGX](<IMAGES/N1K.png>)
+
+  
+
+
+
+
+
+
+
+
 
 
 
