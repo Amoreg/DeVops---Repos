@@ -72,7 +72,24 @@
 
 ######       C. Confirm Apache has been successfully installed
 
+ii. Add a new listen directive
+
+#####   STEP 4: Configure Apache to Port 8000
+
+######      By default, apache listen on port 80. Since our load balancer will also be listening on port 80, we need to make our webservers listen on port 8000
+
+######    i. Edit port.conf file
+
+![NIGX](<IMAGES/N1C.png>)
+
+######    ii. Add a new listen directive
+
 ![NIGX](<IMAGES/N4.png>)
+
+
+
+
+
 
 
 
