@@ -144,7 +144,7 @@ ii. Add a new listen directive
 
 ######            upstream backend_servers {
 
-![NIGX](<IMAGES/N1K.png>)
+![NIGX](<IMAGES/N1L.png>)
 
   
 
