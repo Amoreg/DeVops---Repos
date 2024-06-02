@@ -118,6 +118,10 @@ ii. Add a new listen directive
 
 ![NIGX](<IMAGES/N1H.png>)
 
+###  Note: This step should be done for both webserver1 and webserver 2
+
+![NIGX](<IMAGES/N8.png>)
+
 
 
 
