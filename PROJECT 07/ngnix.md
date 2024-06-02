@@ -53,6 +53,8 @@
 
 ######      B. Edit inbound rules on open port 8000 for our both webserver_1 and webserver_2 and port 80 for our load balancer!
 
+![NIGX](<IMAGES/N2.png>)
+
 
 
 
