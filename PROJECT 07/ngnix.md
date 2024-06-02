@@ -146,6 +146,31 @@ ii. Add a new listen directive
 
 ![NIGX](<IMAGES/N1L.png>)
 
+#####   upstream backend_servers defines a group of backend servers. The server lines inside the upstream block list the addresses and ports of your backend servers. proxy_pass inside the location block sets up the load balancing, passing the requests to the backend servers. The proxy_set_header lines pass necessary headers to the backend servers to correctly handle the requests
+
+######    v. Test if nginx configuration is correct
+
+######     sudo nninx -t
+
+![NIGX](<IMAGES/N10.png>)
+
+######     vi. Restart nginx
+
+![NIGX](<IMAGES/N1M.png>)
+
+######     vii. Paste load balancer public Ip address on your web browser to see the content of web server 1 and 2
+
+![NIGX](<IMAGES/N11.png>)
+
+
+
+
+
+
+
+
+
+
   
 
 
