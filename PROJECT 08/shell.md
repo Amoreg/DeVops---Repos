@@ -78,3 +78,16 @@
 #####      Set Up Web Page: The script grants full read and write permissions recursively to the /var/www/ directory and creates an HTML file (index.html) in the default web directory (/var/www/html). This HTML file displays a simple web page with the instance's public IP address.
 
 #####       Restart Apache: Finally, the script restarts the Apache service with sudo systemctl restart apache2 to apply the configuration changes.
+
+![SHELL](<IMAGES/S03.png>)
+
+###  Step 4: Automating Load Balancers Configurartion With Shell Script On our load balancer instance;
+
+#####      i. Open a file and paste the shell script below
+
+![SHELL](<IMAGES/S04.png>)
+
+![SHELL](<IMAGES/S05.png>)
+
+![SHELL](<IMAGES/S06.png>)
+
