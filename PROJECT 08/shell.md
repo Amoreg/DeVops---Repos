@@ -27,7 +27,7 @@
 
 ######        Process automation can increase business productivity and efficiency, help deliver new insights into business and IT challenges, and surface solutions by using rules-based decisioning. Process mining, workflow automation, business process management (BPM), and robotic process automation (RPA) are examples of process automation.
 
-####    ntelligent automation
+####    Intelligent automation
 
 ######    Intelligent automation is a more advanced form of automation that combines artificial intelligence (AI), business process management, and robotic process automation capabilities to streamline and scale decision-making across organizations.
 
