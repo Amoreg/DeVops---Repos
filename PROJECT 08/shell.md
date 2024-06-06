@@ -85,11 +85,4 @@
 
 #####      i. Open a file and paste the shell script below
 
-![SHELL](<IMAGES/S04.png>)
-
-![SHELL](<IMAGES/S05.png>)
-
-![SHELL](<IMAGES/S06.png>)
-
-![SHELL](<IMAGES/S07.png>)
 
