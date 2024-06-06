@@ -55,3 +55,4 @@ Create an AWS instance using RedHat Distribution
 The EC2 instance will serve as a Web Server, create 3 volumes in the same AZ as the Web Srver EC2, each of 10GB.
 
 Attach the three volumes one by one to your Webserver EC2 instance
+
