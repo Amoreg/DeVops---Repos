@@ -56,3 +56,4 @@ The EC2 instance will serve as a Web Server, create 3 volumes in the same AZ as 
 
 Attach the three volumes one by one to your Webserver EC2 instance
 
+![LVM](<IMAGES/01.png>)
