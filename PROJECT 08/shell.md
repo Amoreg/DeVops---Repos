@@ -1,5 +1,5 @@
 
-## Automating Loadbalancer Configuration With Shell scripting
+## AUTOMATING LOADBALANCER CONFIGURATION WITH SHELL SCRIPTING
 
 ### Introduction
 
@@ -9,9 +9,31 @@
 
 ##### As a DevOps Engineers automation is at the heart of the work we do. Automation helps us speed the development of services and reduce the chance of making errors in our day activity.
 
-### What is automation?
+### WHAT IS AUTOMATION?
 
 #####   Automation refers to the practice of using automated tools, processes, and workflows to streamline and accelerate the development, deployment, and operations of software applications. Automation plays a central role in DevOps practices, enabling teams to achieve faster delivery cycles, higher quality, and greater efficiency throughout the software development lifecycle.
+
+### TYPRES OF AUTOMATION
+
+####     Basic automation
+
+#####       Basic or task automation takes simple, routine tasks and automates them. Basic automation is used to digitize, streamline, and centralize manual tasks such as distributing onboarding materials to new hires, forwarding documents for approvals, or automatically sending invoices to clients.
+
+#####       Using automation instead of human workers to complete these tasks helps eliminate errors, accelerate the pace of transactional work, and free employees from time-consuming tasks, allowing them to focus on higher value, more meaningful work.
+
+####    Process automation
+
+######       Process automation takes more complex and repeatable multi-step processes (sometimes involving multiple systems) and automates them. Process automation helps bring greater uniformity and transparency to business and IT processes.
+
+######        Process automation can increase business productivity and efficiency, help deliver new insights into business and IT challenges, and surface solutions by using rules-based decisioning. Process mining, workflow automation, business process management (BPM), and robotic process automation (RPA) are examples of process automation.
+
+####    ntelligent automation
+
+######    Intelligent automation is a more advanced form of automation that combines artificial intelligence (AI), business process management, and robotic process automation capabilities to streamline and scale decision-making across organizations.
+
+######       For example, virtual agents that are powered by technologies like natural language processing, intelligent search, and RPA can reduce costs and empower both employees and external customers. Such automation contributes to increased productivity and an optimal customer experience. AIOps and AI assistants are other examples of intelligent automation in practice.
+
+#####     Automation is becoming increasingly ubiquitous in the modern world and has countless applications, including: enterprise applications such as business process automation (BPA), AIOps, and enterprise automation, industrial automation applications such as robotics used in automotive manufacturing, and consumer applications such as home automation.
 
 ###  Importance of Automation
 
@@ -33,9 +55,9 @@
 
 #####   Step 2: Open New Security Group For Both Webservers and load balancer i. For the webservers and load balancer, go to the security groups
 
-######         i Edit inbound rules on open port 8000 for our both WS_1 and WS_2 and port 80 for our load balancer
+######          i Edit inbound rules on open port 8000 for our both WS_1 and WS_2 and port 80 for our load balancer
 
-######         ii. Allow traffic from anywhere on the open ports
+######          ii. Allow traffic from anywhere on the open ports
 
 ######          iii. ssh into the three instances
 
