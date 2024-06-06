@@ -89,6 +89,6 @@
 
 ![SHELL](<IMAGES/S05.png>)
 
-![SHELL](<IMAGES/S06.png>)
+
 
 
