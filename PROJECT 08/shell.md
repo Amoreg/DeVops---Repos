@@ -42,3 +42,5 @@
 ####     Step 3: Automating Webservers Configurartion With Shell Script
 
 ######          i. Paste the shell script below in a file on webserver 1 and 2 instances to configure each webservers
+
+![SHELL](<IMAGES/S01.png>)
