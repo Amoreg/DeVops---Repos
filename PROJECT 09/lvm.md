@@ -61,3 +61,5 @@
 #####   Open up the Linux terminal to begin configuration
 
 #####  Use lsblk command to inspect what block devices are attached to the server. Notice names of your newly created devices. All devices in Linux reside in /dev/ directory. Inspect it with ls /dev/ and make sure you see all 3 newly created block devices there – their names will likely be xvdf, xvdh, xvdp.
+
+![LVM](<IMAGES/02.png>)
