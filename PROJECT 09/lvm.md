@@ -11,11 +11,11 @@
 
 ####    Key Components of LVM:
 
-######     Physical Volumes (PVs):These are physical storage devices (e.g., hard drives, SSDs) or partitions that are initialized for use with LVM. Each physical volume is assigned a unique identifier.
+######     1.  Physical Volumes (PVs):These are physical storage devices (e.g., hard drives, SSDs) or partitions that are initialized for use with LVM. Each physical volume is assigned a unique identifier.
 
-######     Volume Groups (VGs):These are created by combining one or more physical volumes. A volume group represents a pool of storage that can be divided into logical volumes.
+######     2.  Volume Groups (VGs):These are created by combining one or more physical volumes. A volume group represents a pool of storage that can be divided into logical volumes.
 
-######     Logical Volumes (LVs):These are virtual partitions created from free space within volume groups. They can be thought of as equivalent to partitions in traditional disk partitioning schemes (e.g., ext4 partitions). Logical volumes can be resized dynamically without requiring downtime.
+######     3.  Logical Volumes (LVs):These are virtual partitions created from free space within volume groups. They can be thought of as equivalent to partitions in traditional disk partitioning schemes (e.g., ext4 partitions). Logical volumes can be resized dynamically without requiring downtime.
 
 ####   Advantages of LVM:
 
@@ -33,11 +33,11 @@
 
 ####   Use Cases for LVM:
 
-######   Server Virtualization: LVM is commonly used in virtualization environments to manage disk resources for virtual machines.
+######    1. Server Virtualization: LVM is commonly used in virtualization environments to manage disk resources for virtual machines.
 
-#####    Database Servers: LVM allows for easy resizing of partitions used by databases to accommodate changing storage requirements.
+#####     2.  Database Servers: LVM allows for easy resizing of partitions used by databases to accommodate changing storage requirements.
 
-#####    Backup Systems: LVM snapshots can be used for creating consistent backups of data without interrupting ongoing operations.
+#####     3.  Backup Systems: LVM snapshots can be used for creating consistent backups of data without interrupting ongoing operations.
 
 ####   Implementing Wordpress Web Solution
 
@@ -47,13 +47,17 @@
 
 ####   Your 3-Tier Setup
 
-A Laptop or PC to serve as a client
-An EC2 Linux Server as a web server (This is where you will install WordPress)
-An EC2 Linux server as a database (DB) serve
-Create an AWS instance using RedHat Distribution
+####   *  A Laptop or PC to serve as a client
+####   *  An EC2 Linux Server as a web server (This is where you will install WordPress)
+####   *  An EC2 Linux server as a database (DB) serve
+######   1.  Create an AWS instance using RedHat Distribution
 
-The EC2 instance will serve as a Web Server, create 3 volumes in the same AZ as the Web Srver EC2, each of 10GB.
+#####    The EC2 instance will serve as a Web Server, create 3 volumes in the same AZ as the Web Srver EC2, each of 10GB.
 
-Attach the three volumes one by one to your Webserver EC2 instance
+#####   2. Attach the three volumes one by one to your Webserver EC2 instance
 
 ![LVM](<IMAGES/01.png>)
+
+#####   Open up the Linux terminal to begin configuration
+
+#####  Use lsblk command to inspect what block devices are attached to the server. Notice names of your newly created devices. All devices in Linux reside in /dev/ directory. Inspect it with ls /dev/ and make sure you see all 3 newly created block devices there – their names will likely be xvdf, xvdh, xvdp.
