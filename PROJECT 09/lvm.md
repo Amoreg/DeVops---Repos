@@ -58,8 +58,33 @@
 
 ![LVM](<IMAGES/01.png>)
 
-#####   Open up the Linux terminal to begin configuration
+#####   3.  Open up the Linux terminal to begin configuration
 
-#####  Use lsblk command to inspect what block devices are attached to the server. Notice names of your newly created devices. All devices in Linux reside in /dev/ directory. Inspect it with ls /dev/ and make sure you see all 3 newly created block devices there – their names will likely be xvdf, xvdh, xvdp.
+#####  4.   Use lsblk command to inspect what block devices are attached to the server. Notice names of your newly created devices. All devices in Linux reside in /dev/ directory. Inspect it with ls /dev/ and make sure you see all 3 newly created block devices there – their names will likely be xvdf, xvdh, xvdp.
 
 ![LVM](<IMAGES/02.png>)
+
+![LVM](<IMAGES/03.png>)
+
+#####  5.  Use df -h command to see all mounts and free space on your server
+
+![LVM](<IMAGES/04.png>)
+
+######  6.  Use gdisk utility to create a single partition on each of the 3 disks
+
+######      sudo gdisk /dev/xvdf
+
+![LVM](<IMAGES/05.png>)
+
+![LVM](<IMAGES/06.png>)
+
+![LVM](<IMAGES/07.png>)
+
+######     7.  Use lsblk utility to view the newly configured partition on each of the 3 disks.
+
+![LVM](<IMAGES/07.png>)
+
+######     8.  Install lvm2 package using sudo yum install lvm2. Run sudo lvmdiskscan command to check for available partitions.
+
+![LVM](<IMAGES/08.png>)
+
