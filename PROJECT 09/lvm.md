@@ -144,6 +144,38 @@
 
 ![LVM](<IMAGES/19.png>)
 
+######   20.  Mount /var/log on logs-lv logical volume. (Note that all the existing data on /var/log will be deleted. That is why step 15 above is very important)
+
+######     sudo mount /dev/webdata-vg/logs-lv /var/log
+
+#####    21.  Restore log files back into /var/log directory
+
+######      sudo rsync -av /home/recovery/logs/. /var/log
+
+![LVM](<IMAGES/20.png>)
+
+####   22.   UPDATE THE /ETC/FSTAB FILE
+
+######     The UUID of the device will be used to update the /etc/fstab file;
+
+![LVM](<IMAGES/AC.png>)
+
+![LVM](<IMAGES/21.png>)
+
+![LVM](<IMAGES/AD.png>)
+ 
+![LVM](<IMAGES/AQ.png>)
+
+#####    Update /etc/fstab in this format using your own UUID and rememeber to remove the leading and ending quotes.
+
+![LVM](<IMAGES/22.png>)
+
+
+
+
+
+
+
 
 
 
