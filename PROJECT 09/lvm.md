@@ -3,7 +3,7 @@
 
 #### Introduction
 
-######     Certainly! WordPress is a popular open-source content management system (CMS) and website creation tool written in PHP. It is widely used for building websites, blogs, and online stores due to its flexibility, ease of use, and extensive ecosystem of themes and plugins.
+######     WordPress is a content management system (CMS) that allows you to host and build websites. WordPress contains plugin architecture and a template system, so you can customize any website to fit your business, blog, portfolio, or online store. The focus of this tutorial is not on how to build websites with wordpress
 
 ####  What Is LVM Storage?
 
@@ -45,11 +45,20 @@
 
 ####    Three-tier Architecture is a client-server software architecture pattern that comprise of 3 separate layers.
 
+###   1. Presentation Layer (PL): This is the user interface such as the client server or browser on your laptop.
+
+###   2. Business Layer (BL): This is the backend program that implements business logic. Application or Webserver
+
+###   3. Data Access or Management Layer (DAL): This is the layer for computer data storage and data access. Database Server or File System Server such as FTP server, or NFS Server.
+
 ####   Your 3-Tier Setup
 
 ####   *  A Laptop or PC to serve as a client
+
 ####   *  An EC2 Linux Server as a web server (This is where you will install WordPress)
+
 ####   *  An EC2 Linux server as a database (DB) serve
+
 ######   1.  Create an AWS instance using RedHat Distribution
 
 #####    The EC2 instance will serve as a Web Server, create 3 volumes in the same AZ as the Web Srver EC2, each of 10GB.
