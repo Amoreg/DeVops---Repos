@@ -82,9 +82,9 @@
 
 ######     7.  Use lsblk utility to view the newly configured partition on each of the 3 disks.
 
-![LVM](<IMAGES/07.png>)
+![LVM](<IMAGES/08.png>)
 
 ######     8.  Install lvm2 package using sudo yum install lvm2. Run sudo lvmdiskscan command to check for available partitions.
 
-![LVM](<IMAGES/08.png>)
+![LVM](<IMAGES/09.png>)
 
