@@ -88,3 +88,69 @@
 
 ![LVM](<IMAGES/09.png>)
 
+![LVM](<IMAGES/10.png>)
+
+######  9.  Use pvcreate utility to mark each of 3 disks as physical volumes (PVs) to be used by LVM.
+
+![LVM](<IMAGES/11.png>)
+
+######  10.   Use vgcreate utility to add all 3 PVs to a volume group (VG). Name the VG webdata-vg
+
+######    sudo vgcreate webdata-vg /dev/xvdh1 /dev/xvdg1 /dev/xvdf1
+
+![LVM](<IMAGES/12.png>)
+
+######   11.   Verify that VG has been created
+
+![LVM](<IMAGES/13.png>)
+
+######   12.   Use lvcreate utility to create 2 logical volumes. apps-lv (Use half of the PV size), and logs-lv Use the remaining space of the PV size. NOTE: apps-lv will be used to store data for the Website while, logs-lv will be used to store data for logs.
+
+######     sudo lvcreate -n apps-lv -L 14G webdata-vg sudo lvcreate -n logs-lv -L 14G webdata-vg
+
+![LVM](<IMAGES/14.png>)
+
+######     Verify that your Logical Volume has been created successfully by running sudo lvs
+
+![LVM](<IMAGES/15.png>)
+
+######    14.   Verify the entire setup
+
+![LVM](<IMAGES/16.png>)
+
+![LVM](<IMAGES/17.png>)
+
+######     15.  Use mkfs.ext4 to format the logical volumes with ext4 filesystem
+
+![LVM](<IMAGES/AB.png>)
+
+![LVM](<IMAGES/18.png>)
+
+######   16.  Create /var/www/html directory to store website files
+
+######       sudo mkdir -p /var/www/html
+
+######   17.  Create /home/recovery/logs to store backup of log data
+
+######        sudo mkdir -p /home/recovery/logs
+
+######   18.   Mount /var/www/html on apps-lv logical volume
+
+######         sudo mount /dev/webdata-vg/apps-lv /var/www/html/
+
+######  19.   Use rsync utility to backup all the files in the log directory /var/log into /home/recovery/logs (This is required before mounting the file system)
+
+######        sudo rsync -av /var/log/. /home/recovery/logs/
+
+![LVM](<IMAGES/19.png>)
+
+
+
+
+
+
+
+
+
+
+
