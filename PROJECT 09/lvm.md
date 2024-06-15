@@ -236,6 +236,19 @@ Configure SELinux Policies
 
 #####      sudo yum update sudo yum install mysql-server -y
 
+![LVM](<IMAGES/28.png>)
+
+Verify that the service is up and running by using sudo systemctl status mysqld, if it is not running, restart the service and enable it so it will be running even after reboot:
+
+#####     sudo systemctl restart mysqld
+#####     sudo systemctl enable mysqld
+
+##   Configure DB To Work With WordPress
+
+![LVM](<IMAGES/AO.png>)
+
+![LVM](<IMAGES/29.png>)
+
 
 
 
