@@ -191,6 +191,14 @@
 
 ![LVM](<IMAGES/23.png>)
 
+Prepare the Database Server
+Launch a second RedHat EC2 instance that will have a role – ‘DB Server’ Repeat the same steps as for the Web Server, but instead of apps-lv create db-lv and mount it to var/www/db directory instead of /var/www/html/.
+
+## Install WordPress On EC2 WebServer
+Update the repository
+
+sudo yum -y update
+
 
 
 
