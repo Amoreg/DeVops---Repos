@@ -179,6 +179,18 @@
 
 ![LVM](<IMAGES/22.png>)
 
+#####    Test the configuration and reload the daemon
+
+######      sudo mount -a
+
+######      sudo systemctl daemon-reload
+
+![LVM](<IMAGES/22.png>)
+
+#####     Verify your setup by running df -h, output must look like this:
+
+![LVM](<IMAGES/23.png>)
+
 
 
 
