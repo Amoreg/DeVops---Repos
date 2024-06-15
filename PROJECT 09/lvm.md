@@ -175,7 +175,7 @@
  
 ![LVM](<IMAGES/AQ.png>)
 
-#####    Update /etc/fstab in this format using your own UUID and rememeber to remove the leading and ending quotes.
+#####    Update /etc/fstab in this format using your own UUID and remember to remove the leading and ending quotes.
 
 ![LVM](<IMAGES/22.png>)
 
