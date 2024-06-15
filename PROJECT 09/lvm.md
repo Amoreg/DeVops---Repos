@@ -224,7 +224,7 @@ Restart Apache
 
 sudo systemctl restart httpd
 
-Download Wrdpress and Copy Wordpress to var/www/html
+Download Wordpress and Copy Wordpress to var/www/html
 
 ![LVM](<IMAGES/29.png>)
 
