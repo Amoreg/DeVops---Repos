@@ -248,6 +248,46 @@ Verify that the service is up and running by using sudo systemctl status mysqld,
 
 ![LVM](<IMAGES/33.png>)
 
+Configure WordPress To Connect To Remote Database. Edit inbound rule and open port 3306 on database server and allow connection from only our database server.
+
+![LVM](<IMAGES/34.png>)
+
+Install MySQL client and test that you can connect from your Web Server to your DB server by using mysql-client
+
+![LVM](<IMAGES/35.png>)
+
+![LVM](<IMAGES/36.png>)
+
+Verify if you can successfully execute SHOW DATABASES; command and see a list of existing databases.
+
+Change permissions and configuration so Apache could use WordPress:
+
+Enable TCP port 80 in Inbound Rules configuration for your Web Server EC2 (enable from everywhere 0.0.0.0/0 or from your workstation’s IP)
+
+Verify Database Credentials
+Check the wp-config.php file in your WordPress webserver to ensure that the database credentials are correct.
+
+sudo nano /var/www/html/wordpress/wp-config.php
+
+Verify the values below
+
+![LVM](<IMAGES/AL.png>)
+
+Try to access from your browser the link to your WordPress http:///wordpress/
+
+![LVM](<IMAGES/37.png>)
+
+![LVM](<IMAGES/38.png>)
+
+![LVM](<IMAGES/39.png>)
+
+![LVM](<IMAGES/40.png>)
+
+
+
+
+
+
 
 
 
