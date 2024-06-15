@@ -277,9 +277,9 @@ Try to access from your browser the link to your WordPress http:///wordpress/
 
 ![LVM](<IMAGES/37.png>)
 
-![LVM](<IMAGES/38.png>)
+![LVM](<IMAGES/380.png>)
 
-![LVM](<IMAGES/39.png>)
+![LVM](<IMAGES/390.png>)
 
 ![LVM](<IMAGES/40.png>)
 
