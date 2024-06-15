@@ -216,7 +216,7 @@ sudo systemctl start httpd
 
 To install PHP and it’s depemdencies
 
-![LVM](<IMAGES/Ak.png>)
+![LVM](<IMAGES/AK.png>)
 
 ![LVM](<IMAGES/27.png>)
 
@@ -226,6 +226,15 @@ sudo systemctl restart httpd
 
 Download Wrdpress and Copy Wordpress to var/www/html
 
+![LVM](<IMAGES/AL.png>)
+
+Configure SELinux Policies
+
+![LVM](<IMAGES/AM.png>)
+
+## Install MySQL On EC2 DB Server
+
+#####      sudo yum update sudo yum install mysql-server -y
 
 
 
