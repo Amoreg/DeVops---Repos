@@ -199,6 +199,35 @@ Update the repository
 
 sudo yum -y update
 
+![LVM](<IMAGES/24.png>)
+
+Install wget, Apache and it’s dependencies
+
+sudo yum -y install wget httpd php php-mysqlnd php-fpm php-json
+
+![LVM](<IMAGES/25.png>)
+
+Start Apache
+
+sudo systemctl enable httpd
+sudo systemctl start httpd
+
+![LVM](<IMAGES/26.png>)
+
+To install PHP and it’s depemdencies
+
+![LVM](<IMAGES/Ak.png>)
+
+![LVM](<IMAGES/27.png>)
+
+Restart Apache
+
+sudo systemctl restart httpd
+
+Download Wrdpress and Copy Wordpress to var/www/html
+
+
+
 
 
 
