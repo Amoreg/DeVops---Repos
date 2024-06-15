@@ -189,7 +189,7 @@
 
 #####     Verify your setup by running df -h, output must look like this:
 
-![LVM](<IMAGES/23.png>)
+![LVM](<IMAGES/24.png>)
 
 Prepare the Database Server
 Launch a second RedHat EC2 instance that will have a role – ‘DB Server’ Repeat the same steps as for the Web Server, but instead of apps-lv create db-lv and mount it to var/www/db directory instead of /var/www/html/.
@@ -199,26 +199,26 @@ Update the repository
 
 sudo yum -y update
 
-![LVM](<IMAGES/24.png>)
+![LVM](<IMAGES/25.png>)
 
 Install wget, Apache and it’s dependencies
 
 sudo yum -y install wget httpd php php-mysqlnd php-fpm php-json
 
-![LVM](<IMAGES/25.png>)
+![LVM](<IMAGES/26.png>)
 
 Start Apache
 
 sudo systemctl enable httpd
 sudo systemctl start httpd
 
-![LVM](<IMAGES/26.png>)
+![LVM](<IMAGES/27.png>)
 
 To install PHP and it’s depemdencies
 
 ![LVM](<IMAGES/AK.png>)
 
-![LVM](<IMAGES/27.png>)
+![LVM](<IMAGES/28.png>)
 
 Restart Apache
 
@@ -226,7 +226,7 @@ sudo systemctl restart httpd
 
 Download Wrdpress and Copy Wordpress to var/www/html
 
-![LVM](<IMAGES/AL.png>)
+![LVM](<IMAGES/29.png>)
 
 Configure SELinux Policies
 
@@ -236,18 +236,17 @@ Configure SELinux Policies
 
 #####      sudo yum update sudo yum install mysql-server -y
 
-![LVM](<IMAGES/28.png>)
+![LVM](<IMAGES/30.png>)
 
 Verify that the service is up and running by using sudo systemctl status mysqld, if it is not running, restart the service and enable it so it will be running even after reboot:
 
-#####     sudo systemctl restart mysqld
-#####     sudo systemctl enable mysqld
+![LVM](<IMAGES/31.png>)
 
 ##   Configure DB To Work With WordPress
 
-![LVM](<IMAGES/AO.png>)
+![LVM](<IMAGES/32.png>)
 
-![LVM](<IMAGES/29.png>)
+![LVM](<IMAGES/33.png>)
 
 
 
