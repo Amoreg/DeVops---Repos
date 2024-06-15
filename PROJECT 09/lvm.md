@@ -1,7 +1,7 @@
 
-#### Implementing Wordpress Website With LVM Storage Management
+## Implementing Wordpress Website With LVM Storage Management
 
-#### Introduction
+### Introduction
 
 ######     WordPress is a content management system (CMS) that allows you to host and build websites. WordPress contains plugin architecture and a template system, so you can customize any website to fit your business, blog, portfolio, or online store. The focus of this tutorial is not on how to build websites with wordpress
 
