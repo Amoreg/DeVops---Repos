@@ -9,26 +9,26 @@
 ####  Git/GitHub/GitLab: 
 These are used to manage and track changes in the source code, enabling multiple developers to collaborate efficiently.
 
-Continuous Integration/Continuous Deployment (CI/CD)
+####  Continuous Integration/Continuous Deployment (CI/CD)
 
 Jenkins/GitLab CI/Travis CI: CI/CD tools automate the process of building, testing, and deploying code. They ensure that new code changes are continuously integrated and deployed to production with minimal manual intervention.
 
-Configuration Management
+####  Configuration Management
 
 Ansible/Chef/Puppet: These tools automate the provisioning and management of infrastructure. They ensure that systems are configured consistently and can be replicated easily across different environments.
 
-Infrastructure as Code (IaC)
+####  Infrastructure as Code (IaC)
 
 Terraform/CloudFormation: IaC tools allow infrastructure to be defined and managed using code, making it easy to provision and scale resources in a repeatable manner.
 
-Containerization
+###  Containerization
 
 Docker: Docker packages applications and their dependencies into containers, ensuring that they run consistently across different environments.
 
-Container Orchestration
+###  Container Orchestration
 
 Kubernetes/Docker Swarm: These platforms manage the deployment, scaling, and operation of containerized applications across clusters of machines.
 
-Monitoring and Logging
+### Monitoring and Logging
 
 Prometheus/Grafana/ELK Stack (Elasticsearch, Logstash, Kibana): Monitoring tools collect metrics and logs from applications and infrastructure, providing visibility into system performance and helping to identify issues.
