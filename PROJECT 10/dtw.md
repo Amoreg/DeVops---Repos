@@ -56,7 +56,7 @@ STEP 1 – PREPARE NFS SERVER
 ![DTW](<IMAGES/002.png>)
 
 2. Based on your LVM experience from Project 6, Configure LVM on the Server.
-* create volumes for the NFS server
+####  * Create volumes for the NFS server
 
 ![DTW](<IMAGES/003.png>)
 
