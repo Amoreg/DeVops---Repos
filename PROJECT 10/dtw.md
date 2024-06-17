@@ -64,5 +64,5 @@ STEP 1 – PREPARE NFS SERVER
 
 using the gdisk utility to create partitions
 
-![DTW](<IMAGES/005png>)
+![DTW](<IMAGES/005.png>)
 
