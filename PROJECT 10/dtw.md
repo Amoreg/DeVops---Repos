@@ -32,3 +32,7 @@ Kubernetes/Docker Swarm: These platforms manage the deployment, scaling, and ope
 ### Monitoring and Logging
 
 Prometheus/Grafana/ELK Stack (Elasticsearch, Logstash, Kibana): Monitoring tools collect metrics and logs from applications and infrastructure, providing visibility into system performance and helping to identify issues.
+
+####   In this project you will implement a solution that consists of following components
+
+![DTW](<IMAGES/001.png>)
