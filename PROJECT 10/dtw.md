@@ -47,3 +47,16 @@ Prometheus/Grafana/ELK Stack (Elasticsearch, Logstash, Kibana): Monitoring tools
 * Efficiency: Streamlines development and deployment processes, allowing teams to focus on delivering features and improvements.
 
 * Reliability: Continuous monitoring and automated testing help catch and resolve issues early, improving system stability.
+
+## Implementing A Tooling Website
+STEP 1 – PREPARE NFS SERVER
+
+1. Spin up a new EC2 instance with RHEL Linux 8 Operating System.
+
+![DTW](<IMAGES/002.png>)
+
+2. Based on your LVM experience from Project 6, Configure LVM on the Server.
+* create volumes for the NFS server
+
+![DTW](<IMAGES/003.png>)
+
