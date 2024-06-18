@@ -118,3 +118,21 @@ Edit fstab file and paste the UUID of the mount part
 
  ![DTW](<IMAGES/015.png>)
 
+### 6. Check which port is used by NFS and open it using Security Groups (add new Inbound Rule)
+#### rpcinfo -p | grep nfs
+
+![DTW](<IMAGES/016.png>)
+
+####  * Important note: In order for NFS server to be accessible from your client, you must also open following ports: TCP 111, UDP 111, UDP 2049
+
+![DTW](<IMAGES/017.png>)
+
+##  STEP 2 – CONFIGURE THE DATABASE SERVER
+
+#### 1.Install MySQL server
+####  sudo apt install mysql
+
+####  2. Create a database and name it tooling
+
+![DTW](<IMAGES/018.png>)
+
