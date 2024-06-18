@@ -66,3 +66,27 @@ using the gdisk utility to create partitions
 
 ![DTW](<IMAGES/005.png>)
 
+Once partition is created install lvm2 using sudo yum install lvm2 then carry out the other process as in the previous project.
+
+Create physical volume and volume group. Refer to the previous project for this.
+
+Use lvcreate to create logical volumes of size 10G, 10G and 8G each.
+
+Instead of formating the disks as ext4 you will have to format them as xfs sudo mkfs -t xfs /dev/webdata-vg/lv-apps sudo mkfs -t xfs /dev/webdata-vg/lv-logs sudo mkfs -t xfs /dev/webdata-vg/lv-opt
+
+![DTW](<IMAGES/006.png>)
+
+* Ensure there are 3 Logical Volumes. lv-opt lv-apps, and lv-logs
+Create mount points on /mnt directory for the logical volumes as follow:
+Mount lv-apps on /mnt/apps – To be used by webservers
+
+Mount lv-logs on /mnt/logs – To be used by webserver logs
+
+Mount lv-opt on /mnt/opt – To be used by Jenkins server in Project 8
+
+![DTW](<IMAGES/007.png>)
+
+* Once mount is completed run sudo blkid to get the UUID of the mount part, open and paste the UUID in the fstab file.
+
+![DTW](<IMAGES/008.png>)
+
