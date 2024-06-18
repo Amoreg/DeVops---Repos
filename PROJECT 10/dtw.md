@@ -134,5 +134,5 @@ Edit fstab file and paste the UUID of the mount part
 
 ####  2. Create a database and name it tooling
 
-![DTW](<IMAGES/018.png>)
+![DTW](<IMAGES/77.png>)
 
