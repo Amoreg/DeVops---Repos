@@ -77,7 +77,7 @@ Instead of formating the disks as ext4 you will have to format them as xfs sudo 
 ![DTW](<IMAGES/006.png>)
 
 * Ensure there are 3 Logical Volumes. lv-opt lv-apps, and lv-logs
-Create mount points on /mnt directory for the logical volumes as follow:
+###   3 Create mount points on /mnt directory for the logical volumes as follow:
 Mount lv-apps on /mnt/apps – To be used by webservers
 
 Mount lv-logs on /mnt/logs – To be used by webserver logs
@@ -89,4 +89,18 @@ Mount lv-opt on /mnt/opt – To be used by Jenkins server in Project 8
 * Once mount is completed run sudo blkid to get the UUID of the mount part, open and paste the UUID in the fstab file.
 
 ![DTW](<IMAGES/008.png>)
+
+Edit fstab file and paste the UUID of the mount part
+
+![DTW](<IMAGES/009.png>)
+
+###   4 Install NFS server, configure it to start on reboot and make sure it is u and running
+
+![DTW](<IMAGES/010.png>)
+
+![DTW](<IMAGES/011.png>)
+
+###   5. Export the mounts for webservers’ subnet cidr to connect as clients. For simplicity, you will install your all three Web Servers inside the same subnet, but in production set up you would probably want to separate each tier inside its own subnet for higher level of security. To check your subnet cidr – open your EC2 details in AWS web console and locate ‘Networking’ tab and open a Subnet link:
+
+![DTW](<IMAGES/012.png>)
 
