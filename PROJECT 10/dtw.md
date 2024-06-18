@@ -104,3 +104,15 @@ Edit fstab file and paste the UUID of the mount part
 
 ![DTW](<IMAGES/012.png>)
 
+###   *  Make sure we set up permission that will allow our Web servers to read, write and execute files on NFS:
+
+ * Configure access to NFS for clients within the same subnet (example of Subnet CIDR – 172.31.32.0/20):
+
+ ![DTW](<IMAGES/013.png>)
+
+ ####  Save and close the file.
+
+ ####    sudo exportfs -arv
+
+ ![DTW](<IMAGES/014.png>)
+
