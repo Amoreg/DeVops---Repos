@@ -136,3 +136,40 @@ Edit fstab file and paste the UUID of the mount part
 
 ![DTW](<IMAGES/77.png>)
 
+####  3. Create a database user and name it webaccess
+
+######    grant all privileges on tooling.* to 'webaccess'@'172.31.80.0/20';
+
+![DTW](<IMAGES/018.png>)
+
+##  STEP 3 - PREPARE THE WEB SERVERS During the next steps we will do following:
+
+#### * Configure NFS client (this step must be done on all three servers)
+
+#### * Deploy a Tooling application to our Web Servers into a shared NFS folder
+
+#### * Configure the Web Servers to work with a single MySQL database
+
+####  1.Launch three new EC2 instance with RHEL 8 Operating System
+
+####  2.Install NFS client
+
+#####    sudo yum install nfs-utils nfs4-acl-tools -y
+
+![DTW](<IMAGES/019.png>)
+
+3 Mount /var/www/ and target the NFS server’s export for apps
+
+######    sudo mkdir /var/www
+######    sudo mount -t nfs -o rw,nosuid <NFS-Server-Private-IP-Address>:/mnt/apps /var/www
+
+## 4.Verify that NFS was mounted successfully by running df -h. Make sure that the changes will persist on Web Server after reboot:
+
+######   sudo nano /etc/fstab
+######   add following line;
+######   :/mnt/apps /var/www nfs defaults 0 0
+
+![DTW](<IMAGES/020.png>)
+
+
+
