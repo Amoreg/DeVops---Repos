@@ -3,9 +3,9 @@
 
 ![DTW](<IMAGES/OP.png>)
 
-###   Introduction
+##   Introduction
 
-#### The DevOps Tooling Website Solution refers to a suite of integrated tools and practices designed to streamline and automate the development, deployment, and management of web applications. This solution embodies the principles of DevOps, which aims to enhance collaboration between development and operations teams, improve the efficiency of workflows, and ensure the reliability and scalability of applications.DevOps Tooling Website Solution leverages a combination of tools and practices to automate and optimize the entire lifecycle of web applications. From code development to deployment and monitoring, it ensures a seamless, efficient, and reliable process.
+#### The term "DevOps Tooling Website Solution" describes a group of integrated techniques and technologies intended to automate and expedite online application development, deployment, and management. The goals of DevOps are to guarantee the dependability and scalability of applications, optimize workflows, and strengthen cooperation between development and operations teams. This solution exemplifies these goals.Using a variety of tools and techniques, DevOps Tooling Website Solution automates and optimizes web application lifecycles. It guarantees a streamlined, effective, and dependable procedure from code creation to deployment and monitoring.
 
 ###    Key Components and Tools Version Control System (VCS)
 
@@ -233,5 +233,10 @@ Then edit the mysqld.cnf file
 ![DTW](<IMAGES/032.png>)
 
 ![DTW](<IMAGES/033.png>)
+
+##    In summary,
+
+A DevOps tooling website solution that we successfully developed and installed enables easy access to DevOps tools within the corporate infrastructure. This involves a number of web servers utilizing Network File System (NFS) as shared file storage to access the same files and sharing a common database.
+
 
 
