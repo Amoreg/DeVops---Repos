@@ -203,7 +203,7 @@ To make this change permanent – open following config file sudo vi /etc/syscon
 
 ![DTW](<IMAGES/025.png>)
 
-##   10.Update the website’s configuration to connect to the database (in /var/www/html/functions.php file). Apply tooling-db.sql script to your database using this command mysql -h -u -p < tooling-db.sql
+####   11.Update the website’s configuration to connect to the database (in /var/www/html/functions.php file). Apply tooling-db.sql script to your database using this command mysql -h -u -p < tooling-db.sql
 $db = mysqli_connect('172.31.20.138', 'webaccess', 'mypasskey', 'tooling');
 
 Install MySQL on the web servers using sudo yum install mysql -y then cd into the tooling directory to connect to thhe database.
@@ -221,11 +221,11 @@ Then edit the mysqld.cnf file
 
 ![DTW](<IMAGES/030.png>)
 
-#####  11.Create in MySQL a new admin user with username: myuser and password: password: INSERT INTO ‘users’ (‘id’, ‘username’, ‘password’, ’email’, ‘user_type’, ‘status’) VALUES -> (1, ‘myuser’, ‘5f4dcc3b5aa765d61d8327deb882cf99’, ‘user@mail.com’, ‘admin’, ‘1’);
+#####  12.Create in MySQL a new admin user with username: myuser and password: password: INSERT INTO ‘users’ (‘id’, ‘username’, ‘password’, ’email’, ‘user_type’, ‘status’) VALUES -> (1, ‘myuser’, ‘5f4dcc3b5aa765d61d8327deb882cf99’, ‘user@mail.com’, ‘admin’, ‘1’);
 
 ![DTW](<IMAGES/031.png>)
 
-####  12 .Open the website in your browser http:///index.php and make sure you can login into the websute with myuser user.
+####  13 .Open the website in your browser http:///index.php and make sure you can login into the websute with myuser user.
 
 ![DTW](<IMAGES/032.png>)
 
