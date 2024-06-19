@@ -1,5 +1,8 @@
 
 ##  DEVOPS TOOLING WEBSITE SOLUTION
+
+![DTW](<IMAGES/OP.png>)
+
 ###   Introduction
 
 #### The DevOps Tooling Website Solution refers to a suite of integrated tools and practices designed to streamline and automate the development, deployment, and management of web applications. This solution embodies the principles of DevOps, which aims to enhance collaboration between development and operations teams, improve the efficiency of workflows, and ensure the reliability and scalability of applications.DevOps Tooling Website Solution leverages a combination of tools and practices to automate and optimize the entire lifecycle of web applications. From code development to deployment and monitoring, it ensures a seamless, efficient, and reliable process.
