@@ -171,5 +171,32 @@ Edit fstab file and paste the UUID of the mount part
 
 ![DTW](<IMAGES/020.png>)
 
+## 5.Install Remi’s repository, Apache and PHP
 
+![DTW](<IMAGES/021.png>)
 
+####    steps 1-5 for should be done for webserver 1, 2 and 3
+
+######   6.Verify that Apache files and directories are available on the Web Server in /var/www and also on the NFS server in /mnt/apps. If you see the same files – it means NFS is mounted correctly. You can try to create a new file touch test.txt from one server and check if the same file is accessible from other Web Servers.
+
+######  7.Locate the log folder for Apache on the Web Server and mount it to NFS server’s export for logs. Repeat step 4 under the 'prepare web servers' to make sure the mount point will persist after reboot.
+
+######  7.Fork the tooling source code from Darey.io Github Account to your Github account.
+
+![DTW](<IMAGES/022.png>)
+
+##  9.Deploy the tooling website’s code to the Webserver. Ensure that the html folder from the repository is deployed to /var/www/html
+
+![DTW](<IMAGES/023.png>)
+
+##   10.Copy all content inside the html folder into /var/www/html.
+
+sudo cp -R html/. /var/www/html
+
+Note 1: Do not forget to open TCP port 80 on the Web Server.
+
+Note 2: If you encounter 403 Error – check permissions to your /var/www/html folder and also disable SELinux sudo setenforce 0
+
+To make this change permanent – open following config file sudo vi /etc/sysconfig/selinux and set SELINUX=disabled then restart httpd.
+
+![DTW](<IMAGES/024.png>)
