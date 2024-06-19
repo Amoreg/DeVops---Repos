@@ -221,4 +221,14 @@ Then edit the mysqld.cnf file
 
 ![DTW](<IMAGES/030.png>)
 
-###  11.Create in MySQL a new admin user with username: myuser and password: password: INSERT INTO ‘users’ (‘id’, ‘username’, ‘password’, ’email’, ‘user_type’, ‘status’) VALUES -> (1, ‘myuser’, ‘5f4dcc3b5aa765d61d8327deb882cf99’, ‘user@mail.com’, ‘admin’, ‘1’);
+#####  11.Create in MySQL a new admin user with username: myuser and password: password: INSERT INTO ‘users’ (‘id’, ‘username’, ‘password’, ’email’, ‘user_type’, ‘status’) VALUES -> (1, ‘myuser’, ‘5f4dcc3b5aa765d61d8327deb882cf99’, ‘user@mail.com’, ‘admin’, ‘1’);
+
+![DTW](<IMAGES/031.png>)
+
+####  12 .Open the website in your browser http:///index.php and make sure you can login into the websute with myuser user.
+
+![DTW](<IMAGES/032.png>)
+
+![DTW](<IMAGES/033.png>)
+
+
